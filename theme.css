@@ -1,0 +1,81 @@
+/* ==================================================================== */
+/* EDITOR                                                               */
+/* ==================================================================== */
+
+/* Monospace font */
+.markdown-source-view {
+    font-family: DejaVu Sans Mono;
+    font-size: 90%;
+}
+
+/* Highlight active line */
+.CodeMirror-activeline-background {
+    background-color: var(--background-primary-alt);
+}
+
+/* Don't smallify inline code blocks */
+.cm-s-obsidian span.cm-inline-code {
+    font-size: unset;
+}
+
+/* Very faint line numbers */
+.cm-s-obsidian div.CodeMirror-linenumber {
+    color: var(--text-very-faint);
+}
+
+/* ==================================================================== */
+/* CHECKBOXES                                                           */
+/* ==================================================================== */
+.markdown-preview-view .task-list-item-checkbox {
+    filter: hue-rotate(178deg);
+}
+
+/* ==================================================================== */
+/* CODE BLOCKS                                                          */
+/* ==================================================================== */
+.cm-s-obsidian pre.HyperMD-codeblock {
+    font-size: unset;
+    color: var(--text-codeblock-editor);
+}
+.markdown-preview-view code {
+    color: var(--text-codeblock-preview);
+}
+
+
+/* ==================================================================== */
+/* MERMAID DIAGRAMS                                                     */
+/* ==================================================================== */
+
+/* TODO: I don't like using !important here, but I haven't found a better
+ * way to raise these past Mermaid's direct use of IDs in the CSS. */
+
+/* Nodes */
+circle.label-container, 
+ellipse.label-container, 
+path.label-container, 
+polygon.label-container,
+rect.label-container {
+    fill: var(--mermaid-shape-fill) !important;
+    stroke: var(--text-normal) !important;
+}
+
+/* Edges */
+path.path {
+    stroke: var(--text-normal) !important;
+}
+path.arrowheadPath {
+    fill: var(--text-normal) !important;
+    stroke: var(--text-normal) !important;
+}
+span.edgeLabel {
+    color: var(--text-normal);
+}
+
+/* Groups */
+.cluster rect {
+    stroke: var(--text-muted) !important;
+}
+
+
+
+
