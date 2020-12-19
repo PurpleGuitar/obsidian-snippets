@@ -24,10 +24,48 @@
 }
 
 /* ==================================================================== */
-/* CHECKBOXES                                                           */
+/* LINKS                                                                */
 /* ==================================================================== */
-.markdown-preview-view .task-list-item-checkbox {
-    filter: hue-rotate(178deg);
+.markdown-preview-view .internal-link {
+    text-decoration: none;
+}
+.markdown-preview-view .internal-link:hover {
+    text-decoration: underline;
+}
+
+.markdown-preview-view .task-list-item.is-checked .external-link {
+    color: var(--text-faint);
+}
+
+.markdown-preview-view .task-list-item.is-checked .internal-link {
+    color: var(--text-faint);
+    text-decoration: underline;
+}
+
+/* Tag Links */
+.markdown-preview-view .tag {
+    text-decoration: none;
+}
+.markdown-preview-view .tag:hover {
+    text-decoration: underline;
+}
+
+/* H1 Links */
+.markdown-preview-view h1 .internal-link {
+    color: var(--text-accent);
+    text-decoration: none;
+}
+.markdown-preview-view h1 .internal-link:hover {
+    text-decoration: underline;
+}
+
+/* H2 Links */
+.markdown-preview-view h2 .internal-link {
+    color: var(--text-accent);
+    text-decoration: none;
+}
+.markdown-preview-view h2 .internal-link:hover {
+    text-decoration: underline;
 }
 
 /* ==================================================================== */

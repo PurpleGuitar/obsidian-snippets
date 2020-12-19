@@ -35,11 +35,20 @@ span.cm-header-3 {
     line-height: 22pt;
 }
 
+.markdown-preview-view.no-h1-border h1 {
+    border: none;
+}
+
 .markdown-preview-view h2 {
     border-bottom: 1px solid var(--text-normal);
     font-size: 16pt;
     line-height: 20pt;
 }
+
+.markdown-preview-view.no-h2-border h2 {
+    border: none;
+}
+
 
 .markdown-preview-view h3 {
     font-size: 14pt;

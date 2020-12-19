@@ -1,0 +1,36 @@
+/* Remove scroll bar from transclusions */
+.markdown-preview-view .markdown-embed-content {
+    max-height: unset;
+}
+.markdown-preview-view .markdown-embed-content > .markdown-preview-view {
+    max-height: unset;
+    background-color: var(--theme-transclude-background);
+}
+
+/* Make transclusions pretty */
+.markdown-preview-view .markdown-embed, .markdown-preview-view .file-embed {
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px var(--background-modifier-border);
+    background-color: var(--theme-transclude-background);
+}
+
+/* Remove extra vertical size from transclusions */
+.markdown-preview-view .markdown-preview-sizer {
+    min-height: 0px !important;
+}
+
+/* Un-decorate embeds if requested. */
+.markdown-preview-view.no-decorate-embeds .markdown-embed {
+    background-color: var(--theme-page-background);
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 5px;
+}
+.markdown-preview-view.no-decorate-embeds .markdown-embed-content > .markdown-preview-view {
+    padding: 0;
+    margin: 0;
+}

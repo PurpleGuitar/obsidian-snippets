@@ -17,3 +17,11 @@
     --text-codeblock-editor: #c74e25;
     --text-codeblock-preview: #c74e25;
 }
+
+/* ==================================================================== */
+/* CHECKBOXES                                                           */
+/* ==================================================================== */
+.markdown-preview-view .task-list-item-checkbox {
+    filter: hue-rotate(178deg);
+}
+
