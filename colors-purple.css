@@ -4,11 +4,13 @@
 .theme-light {
 
     /* Official theme colors */
-    --background-secondary: #f3f2f4;
-    --background-secondary-alt: #e5e3e8;
-    --text-accent: #441188;
-    --text-accent-hover: #6633aa;
-    --interactive-accent: #6633aa;
+    --background-primary: white;
+    --background-primary-alt: #f5f3f8;
+    --background-secondary: #f3f0f4;
+    --background-secondary-alt: #e5e0e8;
+    --text-accent: #4411aa;
+    --text-accent-hover: #6633cc;
+    --interactive-accent: #6633cc;
     --interactive-accent-hover: #8855cc;
 
     /* My additional colors */ 
