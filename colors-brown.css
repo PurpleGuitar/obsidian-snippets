@@ -4,8 +4,10 @@
 .theme-light {
 
     /* Official theme colors */
-    --background-secondary: #f5f3f2;
-    --background-secondary-alt: #e8e5e3;
+    --background-primary: white;
+    --background-primary-alt: #f8f6f5;
+    --background-secondary: #f5f1ee;
+    --background-secondary-alt: #e8e3e1;
     --text-accent: #884411;
     --text-accent-hover: #aa6633;
     --interactive-accent: #aa6633;
