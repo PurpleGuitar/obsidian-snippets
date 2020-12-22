@@ -22,3 +22,7 @@
     min-height: 0px !important;
 }
 
+/* Remove scroll bar from search results */
+.markdown-preview-view .internal-query.is-embed .search-results-children {
+    max-height: unset;
+}
