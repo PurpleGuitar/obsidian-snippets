@@ -94,7 +94,7 @@ ellipse.label-container,
 path.label-container, 
 polygon.label-container,
 rect.label-container {
-    fill: var(--background-secondary-alt) !important;
+    fill: var(--background-secondary) !important;
     stroke: var(--text-normal) !important;
 }
 
