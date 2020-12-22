@@ -114,6 +114,15 @@ span.edgeLabel {
     stroke: var(--text-muted) !important;
 }
 
+/* ==================================================================== */
+/* CODE BLOCK COPY BUTTON                                               */
+/* ==================================================================== */
+/* For use with "Copy button for code blocks" plugin */
+button.copy-code-button {
+    color: var(--text-faint);
+    background-color: var(--background-primary-alt);
+}
+
 
 
 
