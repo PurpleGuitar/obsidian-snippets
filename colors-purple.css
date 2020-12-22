@@ -12,10 +12,4 @@
     --text-accent-hover: #6633cc;
     --interactive-accent: #6633cc;
     --interactive-accent-hover: #8855cc;
-
-    /* My additional colors */ 
-    --text-very-faint: #dddddd;
-    --mermaid-shape-fill: #faf0ff;
-    --text-codeblock-editor: #4e25c7;
-    --text-codeblock-preview: #4e25c7;
 }

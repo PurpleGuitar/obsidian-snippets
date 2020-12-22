@@ -20,7 +20,8 @@
 
 /* Very faint line numbers */
 .cm-s-obsidian div.CodeMirror-linenumber {
-    color: var(--text-very-faint);
+    color: var(--text-faint);
+    filter: brightness(140%);
 }
 
 /* ==================================================================== */
@@ -73,10 +74,10 @@
 /* ==================================================================== */
 .cm-s-obsidian pre.HyperMD-codeblock {
     font-size: unset;
-    color: var(--text-codeblock-editor);
+    color: var(--text-normal);
 }
 .markdown-preview-view code {
-    color: var(--text-codeblock-preview);
+    color: var(--text-normal);
 }
 
 
@@ -93,7 +94,7 @@ ellipse.label-container,
 path.label-container, 
 polygon.label-container,
 rect.label-container {
-    fill: var(--mermaid-shape-fill) !important;
+    fill: var(--background-secondary-alt) !important;
     stroke: var(--text-normal) !important;
 }
 
