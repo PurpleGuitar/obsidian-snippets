@@ -1,4 +1,3 @@
-
 /* Color odd and even rows */
 .markdown-preview-view tr:nth-child(odd) {
       background-color: var(--background-primary);
