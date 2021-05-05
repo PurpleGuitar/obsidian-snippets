@@ -133,6 +133,15 @@ span.edgeLabel {
 }
 
 /* ==================================================================== */
+/* DATAVIEW PLUGIN                                                      */
+/* ==================================================================== */
+
+/* Vertical align dataview table items. */
+.dataview.table-view-table td {
+    vertical-align: text-top;
+}
+
+/* ==================================================================== */
 /* CODE BLOCK COPY BUTTON                                               */
 /* ==================================================================== */
 /* For use with "Copy button for code blocks" plugin */
