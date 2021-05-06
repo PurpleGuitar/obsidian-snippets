@@ -80,6 +80,11 @@
     color: var(--text-normal);
 }
 
+/* Undo stock light theme overriding code block background */
+.theme-light pre[class*="language-"] {
+  background: var(--background-primary-alt);
+}
+
 /* ==================================================================== */
 /* QUERIES                                                              */
 /* ==================================================================== */
