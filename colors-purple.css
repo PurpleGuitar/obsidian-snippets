@@ -10,6 +10,7 @@
     --background-secondary-alt: #e5e0e8;
     --text-accent: #4411aa;
     --text-accent-hover: #6633cc;
+    --interactive-normal: var(--backround-secondary);
     --interactive-accent: #6633cc;
     --interactive-accent-hover: #8855cc;
 }
