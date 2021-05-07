@@ -138,6 +138,18 @@ span.edgeLabel {
 }
 
 /* ==================================================================== */
+/* BUTTON PLUGIN                                                        */
+/* ==================================================================== */
+
+button.button-as-link {
+    color: var(--text-accent);
+    font-size: var(--editor-font-size);
+    font-family: var(--default-font);
+    margin: 0em;
+    padding: 0em;
+}
+
+/* ==================================================================== */
 /* DATAVIEW PLUGIN                                                      */
 /* ==================================================================== */
 
@@ -147,8 +159,9 @@ span.edgeLabel {
 }
 
 /* ==================================================================== */
-/* CODE BLOCK COPY BUTTON                                               */
+/* CODE BLOCK COPY BUTTON PLUGIN                                        */
 /* ==================================================================== */
+
 /* For use with "Copy button for code blocks" plugin */
 button.copy-code-button {
     color: var(--text-faint);
