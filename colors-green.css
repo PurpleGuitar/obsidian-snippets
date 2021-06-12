@@ -1,0 +1,16 @@
+/* ==================================================================== */
+/* COLORS                                                               */
+/* ==================================================================== */
+.theme-light {
+
+    /* Official theme colors */
+    --background-primary: white;
+    --background-primary-alt: #f3f8f3;
+    --background-secondary: #f0f4f0;
+    --background-secondary-alt: #e0e8e0;
+    --text-accent: #11aa11;
+    --text-accent-hover: #33cc33;
+    --interactive-normal: var(--backround-secondary);
+    --interactive-accent: #33cc33;
+    --interactive-accent-hover: #55cc55;
+}
