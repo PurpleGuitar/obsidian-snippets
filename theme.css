@@ -167,3 +167,10 @@ button.copy-code-button {
     color: var(--text-faint);
     background-color: var(--background-primary-alt);
 }
+
+/* ==================================================================== */
+/* Slides (reveal.js)
+/* ==================================================================== */
+.reveal {
+    font-size: 34px;
+}
