@@ -107,7 +107,7 @@
 /* QUERY RESULTS                                                        */
 /* ==================================================================== */
 
-.search-result-file-title {
+.internal-query.is-embed .search-result-file-title {
     font-size: inherit;
 }
 
