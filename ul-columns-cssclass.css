@@ -1,0 +1,11 @@
+.ul-two-columns ul {
+    columns: 2;
+}
+
+.ul-three-columns ul {
+    columns: 3;
+}
+
+.ul-four-columns ul {
+    columns: 4;
+}
