@@ -26,3 +26,25 @@
 .markdown-preview-view .internal-query.is-embed .search-results-children {
     max-height: unset;
 }
+
+/* 
+ * OPTIONAL no-embed-decorations: Hide decoration and borders from embeds 
+ */
+.markdown-preview-view.no-embed-decorations .markdown-embed {
+    background-color: var(--theme-page-background);
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 5px;
+}
+.markdown-preview-view.no-embed-decorations .markdown-embed-content > .markdown-preview-view {
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+ * OPTIONAL no-embed-titles: Hide decoration and borders from embeds 
+ */
+.markdown-preview-view.no-embed-titles .markdown-embed .markdown-embed-title {
+    display: none;
+}
