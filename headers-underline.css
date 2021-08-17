@@ -24,6 +24,10 @@ span.cm-header-3 {
     font-size: 14pt;
 }
 
+span.cm-header-4 {
+    font-size: 12pt;
+}
+
 
 /* ==================================================================== */
 /* VIEWER                                                               */
@@ -44,5 +48,10 @@ span.cm-header-3 {
 .markdown-preview-view h3 {
     font-size: 14pt;
     line-height: 18pt;
+}
+
+.markdown-preview-view h4 {
+    font-size: 12pt;
+    line-height: 16pt;
 }
 
