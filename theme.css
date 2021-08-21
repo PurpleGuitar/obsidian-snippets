@@ -163,7 +163,7 @@ button.button-as-link {
 
 /* Vertical align dataview table items. */
 .dataview.table-view-table td {
-    vertical-align: text-top;
+    vertical-align: top;
 }
 
 /* ==================================================================== */
