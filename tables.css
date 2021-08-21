@@ -5,3 +5,9 @@
 .markdown-preview-view tr:nth-child(even) {
       background-color: var(--background-secondary);
 }
+
+/* cssclass: set dataview vertical align to top
+ * instead of text-top (useful for pictures) */
+.dv-td-vert-top .dataview.table-view-table td {
+    vertical-align: top;
+}
