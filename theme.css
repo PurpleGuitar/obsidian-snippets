@@ -177,16 +177,6 @@ button.button-as-link {
 }
 
 /* ==================================================================== */
-/* CODE BLOCK COPY BUTTON PLUGIN                                        */
-/* ==================================================================== */
-
-/* For use with "Copy button for code blocks" plugin */
-button.copy-code-button {
-    color: var(--text-faint);
-    background-color: var(--background-primary-alt);
-}
-
-/* ==================================================================== */
 /* SLIDES (reveal.js)                                                   */
 /* ==================================================================== */
 .reveal {
