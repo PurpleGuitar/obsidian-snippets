@@ -80,6 +80,15 @@ span.cm-header-4 {
     line-height: 16pt;
 }
 
+/* OPTIONAL: No underlines */
+.markdown-preview-view.no-h-underline h1 {
+    border-bottom: none;
+}
+
+.markdown-preview-view.no-h-underline h2 {
+    border-bottom: none;
+}
+
 
 /* ==================================================================== */
 /* LINKS                                                                */
