@@ -196,39 +196,6 @@ span.cm-header-4 {
     font-weight: bold;
 }
 
-/* ==================================================================== */
-/* MERMAID DIAGRAMS                                                     */
-/* ==================================================================== */
-
-/* TODO: I don't like using !important here, but I haven't found a better
- * way to raise these past Mermaid's direct use of IDs in the CSS. */
-
-/* Nodes */
-circle.label-container, 
-ellipse.label-container, 
-path.label-container, 
-polygon.label-container,
-rect.label-container {
-    fill: var(--background-secondary) !important;
-    stroke: var(--text-normal) !important;
-}
-
-/* Edges */
-path.path {
-    stroke: var(--text-normal) !important;
-}
-path.arrowheadPath {
-    fill: var(--text-normal) !important;
-    stroke: var(--text-normal) !important;
-}
-span.edgeLabel {
-    color: var(--text-normal);
-}
-
-/* Groups */
-.cluster rect {
-    stroke: var(--text-muted) !important;
-}
 
 /* ==================================================================== */
 /* BUTTON PLUGIN                                                        */
@@ -264,4 +231,39 @@ button.button-as-link {
 .workspace-leaf-content[data-type="recent-files"] .nav-file-title {
     padding-left: 0px;
 }
+
+
+/* ==================================================================== */
+/* MERMAID DIAGRAMS                                                     */
+/* ==================================================================== */
+
+/* TODO: I don't like using !important here, but I haven't found a better
+ * way to raise these past Mermaid's direct use of IDs in the CSS. */
+
+/* Nodes */
+/* circle.label-container,  */
+/* ellipse.label-container,  */
+/* path.label-container,  */
+/* polygon.label-container, */
+/* rect.label-container { */
+/*     fill: var(--background-secondary) !important; */
+/*     stroke: var(--text-normal) !important; */
+/* } */
+/*  */
+/* /* Edges */ 
+/* path.path { */
+/*     stroke: var(--text-normal) !important; */
+/* } */
+/* path.arrowheadPath { */
+/*     fill: var(--text-normal) !important; */
+/*     stroke: var(--text-normal) !important; */
+/* } */
+/* span.edgeLabel { */
+/*     color: var(--text-normal); */
+/* } */
+/*  */
+/* /* Groups */ 
+/* .cluster rect { */
+/*     stroke: var(--text-muted) !important; */
+/* } */
 
