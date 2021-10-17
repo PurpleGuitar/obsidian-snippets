@@ -196,7 +196,6 @@ span.cm-header-4 {
     font-weight: bold;
 }
 
-
 /* ==================================================================== */
 /* BUTTON PLUGIN                                                        */
 /* ==================================================================== */
@@ -232,38 +231,14 @@ button.button-as-link {
     padding-left: 0px;
 }
 
-
 /* ==================================================================== */
-/* MERMAID DIAGRAMS                                                     */
+/* IMAGE PLACEMENT                                                      */
 /* ==================================================================== */
 
-/* TODO: I don't like using !important here, but I haven't found a better
- * way to raise these past Mermaid's direct use of IDs in the CSS. */
-
-/* Nodes */
-/* circle.label-container,  */
-/* ellipse.label-container,  */
-/* path.label-container,  */
-/* polygon.label-container, */
-/* rect.label-container { */
-/*     fill: var(--background-secondary) !important; */
-/*     stroke: var(--text-normal) !important; */
-/* } */
-/*  */
-/* /* Edges */ 
-/* path.path { */
-/*     stroke: var(--text-normal) !important; */
-/* } */
-/* path.arrowheadPath { */
-/*     fill: var(--text-normal) !important; */
-/*     stroke: var(--text-normal) !important; */
-/* } */
-/* span.edgeLabel { */
-/*     color: var(--text-normal); */
-/* } */
-/*  */
-/* /* Groups */ 
-/* .cluster rect { */
-/*     stroke: var(--text-muted) !important; */
-/* } */
-
+.markdown-preview-view .image-embed img[src*="portrait-right"] {
+    max-width: 30%;
+    float: right;
+    background: white;
+    padding: 5px;
+    border: 1px solid black;
+}
