@@ -14,3 +14,11 @@
     --interactive-accent: #33cc33;
     --interactive-accent-hover: #55cc55;
 }
+
+/* ==================================================================== */
+/* CHECKBOXES                                                           */
+/* ==================================================================== */
+.markdown-preview-view .task-list-item-checkbox {
+    filter: hue-rotate(270deg);
+}
+
