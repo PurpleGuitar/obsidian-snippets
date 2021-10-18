@@ -1,0 +1,5 @@
+.markdown-preview-view .frontmatter-container {
+    max-width: 30%;
+    float: right;
+    margin-left: 5px;
+}
