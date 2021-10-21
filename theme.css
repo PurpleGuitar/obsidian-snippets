@@ -178,14 +178,6 @@ span.cm-header-4 {
     white-space: nowrap;
 }
 
-/* ==================================================================== */
-/* SEARCH RESULTS                                                       */
-/* ==================================================================== */
-
-/* Don't wrap tag names. */
-.search-result-container .tree-item-inner {
-    white-space: nowrap;
-}
 
 /* ==================================================================== */
 /* QUERY RESULTS                                                        */
@@ -272,3 +264,25 @@ button.button-as-link {
 .markdown-preview-view .image-embed img[src*="-thumbnail"] {
     max-width: 128px;
 }
+
+
+
+/* ==================================================================== */
+/* GRAVEYARD                                                            */
+/*  .-.                                                                 */
+/* (o o) May you one day                                                */ 
+/* | O \   rise from your grave!                                        */
+/*  \   \                                                               */
+/*   `~~~'                                          Art by Donovan Bake */
+/* ==================================================================== */
+
+
+
+/* ==================================================================== */
+/* SEARCH RESULTS                                                       */
+/* ==================================================================== */
+
+/* Don't wrap tag names. */
+/* .search-result-container .tree-item-inner { */
+/*     white-space: nowrap; */
+/* } */
