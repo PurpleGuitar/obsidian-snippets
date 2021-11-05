@@ -265,6 +265,14 @@ button.button-as-link {
     max-width: 128px;
 }
 
+/* ==================================================================== */
+/* KANBAN PLUGIN                                                        */
+/* ==================================================================== */
+.kanban-plugin__item {
+    /* I don't like using !important, but in this case
+     * the plugin's css will override mine if I don't. */
+    border: 1px solid var(--text-muted) !important;
+}
 
 
 /* ==================================================================== */
