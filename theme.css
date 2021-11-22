@@ -156,7 +156,12 @@ span.cm-header-4 {
 /* ==================================================================== */
 
 /* Don't show query source in display mode */
-.markdown-preview-view .internal-query.is-embed .internal-query-header {
+.markdown-preview-view .internal-query .internal-query-header {
+    display: none;
+}
+
+/* Don't show empty results */
+.markdown-preview-view .internal-query .search-empty-state {
     display: none;
 }
 
