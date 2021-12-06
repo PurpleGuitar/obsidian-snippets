@@ -41,7 +41,7 @@ span.cm-header-1 {
 
 pre.HyperMD-header.HyperMD-header-2 {
     padding-bottom: 0em;
-    border-bottom: 1px solid var(--text-normal);
+    border-bottom: 1px solid var(--text-faint);
 }
 
 span.cm-header-2 {
@@ -65,7 +65,7 @@ span.cm-header-4 {
 }
 
 .markdown-preview-view h2 {
-    border-bottom: 1px solid var(--text-normal);
+    border-bottom: 1px solid var(--text-faint);
     font-size: 16pt;
     line-height: 20pt;
 }
