@@ -2,24 +2,46 @@
 /* EDITOR                                                               */
 /* ==================================================================== */
 
-/* Monospace font */
+/* Monospace font (cm5) */
 .markdown-source-view {
     font-family: DejaVu Sans Mono;
     font-size: 90%;
 }
 
-/* Highlight active line */
+/* Monospace font (cm6) */
+.markdown-source-view.mod-cm6 .cm-scroller {
+    font-family: DejaVu Sans Mono;
+    font-size: 90%;
+}
+
+/* Highlight active line (cm5) */
 .CodeMirror-activeline-background {
     background-color: var(--background-primary-alt);
 }
 
-/* Don't smallify inline code blocks */
+/* Highlight active line (cm6)*/
+.HyperMD-list-line.HyperMD-list-line-1.cm-active.cm-line {
+    background-color: var(--background-primary-alt);
+}
+
+/* Don't smallify inline code blocks (cm5) */
 .cm-s-obsidian span.cm-inline-code {
     font-size: unset;
 }
 
-/* Very faint line numbers */
+/* Don't smallify inline code blocks (cm6) */
+.cm-s-obsidian .HyperMD-codeblock {
+    font-size: unset;
+}
+
+/* Very faint line numbers (cm5) */
 .cm-s-obsidian div.CodeMirror-linenumber {
+    color: var(--text-faint);
+    filter: brightness(140%);
+}
+
+/* Very faint line numbers (cm6) */
+.markdown-source-view.mod-cm6 .cm-gutterElement {
     color: var(--text-faint);
     filter: brightness(140%);
 }
@@ -28,7 +50,7 @@
 /* HEADERS                                                              */
 /* ==================================================================== */
 
-/* Edit mode */
+/* Edit mode (cm5) */
 
 pre.HyperMD-header.HyperMD-header-1 {
     padding-bottom: 0em;
@@ -40,6 +62,34 @@ span.cm-header-1 {
 }
 
 pre.HyperMD-header.HyperMD-header-2 {
+    padding-bottom: 0em;
+    border-bottom: 1px solid var(--text-faint);
+}
+
+span.cm-header-2 {
+    font-size: 16pt;
+}
+
+span.cm-header-3 {
+    font-size: 14pt;
+}
+
+span.cm-header-4 {
+    font-size: 12pt;
+}
+
+/* Edit mode (cm6) */
+
+.HyperMD-header.HyperMD-header-1 {
+    padding-bottom: 0em;
+    border-bottom: 2px solid var(--text-normal);
+}
+
+span.cm-header-1 {
+    font-size: 18pt;
+}
+
+.HyperMD-header.HyperMD-header-2 {
     padding-bottom: 0em;
     border-bottom: 1px solid var(--text-faint);
 }
