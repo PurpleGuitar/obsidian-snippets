@@ -1,4 +1,7 @@
 /* Color odd and even rows */
+.markdown-preview-view th {
+      background-color: var(--background-secondary-alt);
+}
 .markdown-preview-view tr:nth-child(odd) {
       background-color: var(--background-primary);
 }
