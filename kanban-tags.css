@@ -1,14 +1,14 @@
 .kanban-plugin__item-tags .kanban-plugin__item-tag[href="#important"] {
-    background-color: #d22;
-    color: white;
+    background-color: #f76;
+    color: black;
 }
 
 .kanban-plugin__item-tags .kanban-plugin__item-tag[href="#urgent"] {
-    background-color: #f80;
-    color: white;
+    background-color: #f93;
+    color: black;
 }
 
 .kanban-plugin__item-tags .kanban-plugin__item-tag[href="#helpdesk"] {
-    background-color: #aa3;
-    color: white;
+    background-color: #fe6;
+    color: black;
 }
