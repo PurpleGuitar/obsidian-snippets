@@ -12,3 +12,8 @@
     background-color: #fe6;
     color: black;
 }
+
+.kanban-plugin__item-tags .kanban-plugin__item-tag[href="#FY22"] {
+    background-color: #67f;
+    color: white;
+}
