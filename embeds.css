@@ -20,7 +20,7 @@
 /* Remove extra vertical size from transclusions */
 .markdown-preview-view .markdown-preview-sizer {
     /* I don't like using !important here, but a recent version of Obsidian
-     * seems to have added a hard 150px padding to the bottom of embedded
+     * seems to have added a hard padding to the bottom of embedded
      * sections. */
     min-height: 0px !important;
     padding-bottom: 5px !important;
