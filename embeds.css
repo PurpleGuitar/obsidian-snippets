@@ -39,7 +39,7 @@
     border: none;
     box-shadow: none;
     padding: 0;
-    margin: 5px;
+    margin: 0;
 }
 .markdown-preview-view.no-embed-decorations .markdown-embed-content > .markdown-preview-view {
     padding: 0;
