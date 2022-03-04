@@ -255,6 +255,11 @@ button.button-as-link {
     font-weight: normal;
 }
 
+/* Don't let mindmap nodes get too wide. */
+.mm-node .mm-node-content {
+    max-width: 400px !important;
+}
+
 /* ==================================================================== */
 /* GRAVEYARD                                                            */
 /*  .-.                                                                 */
