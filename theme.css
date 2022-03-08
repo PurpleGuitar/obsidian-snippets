@@ -5,11 +5,13 @@
 /* Monospace font (cm5) */
 .markdown-source-view {
     font-family: DejaVu Sans Mono;
+    font-size: 16px;
 }
 
 /* Monospace font (cm6) */
 .markdown-source-view.mod-cm6 .cm-scroller {
     font-family: DejaVu Sans Mono;
+    font-size: 16px;
 }
 
 /* Highlight active line (cm5) */
