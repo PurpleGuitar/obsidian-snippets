@@ -18,7 +18,12 @@
 /* ==================================================================== */
 /* CHECKBOXES                                                           */
 /* ==================================================================== */
+
 .markdown-preview-view .task-list-item-checkbox {
+    filter: hue-rotate(178deg);
+}
+
+.cm-content .task-list-item-checkbox {
     filter: hue-rotate(178deg);
 }
 
