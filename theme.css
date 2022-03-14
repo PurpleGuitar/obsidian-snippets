@@ -49,10 +49,28 @@
 /* ==================================================================== */
 /* LINKS                                                                */
 /* ==================================================================== */
+
+/* Preview links */
 .markdown-preview-view .internal-link {
     text-decoration: none;
 }
 .markdown-preview-view .internal-link:hover {
+    text-decoration: underline;
+}
+
+/* New live preview links */
+.markdown-source-view.mod-cm6 .cm-hmd-internal-link .cm-underline {
+    text-decoration: none;
+}
+.markdown-source-view.mod-cm6 .cm-hmd-internal-link .cm-underline:hover {
+    text-decoration: underline;
+}
+
+/* Embedded links, e.g. in callouts */
+.markdown-rendered .internal-link {
+    text-decoration: none;
+}
+.markdown-rendered .internal-link:hover {
     text-decoration: underline;
 }
 
