@@ -240,6 +240,16 @@ button.button-as-link {
     border: 1px solid black;
 }
 
+
+.cm-editor .image-embed img[src*="-portrait-right"] {
+    max-width: 30%;
+    float: right;
+    background: white;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
 .markdown-preview-view .image-embed img[src*="-thumbnail"] {
     max-width: 128px;
 }
