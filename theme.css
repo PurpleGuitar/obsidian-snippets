@@ -277,6 +277,11 @@ button.button-as-link {
     border: 1px solid var(--text-muted) !important;
 }
 
+/* EXPERIMENTAL: Hide cards that don't match search */
+.kanban-plugin__item.is-search-miss {
+    display: none;
+}
+
 /* ==================================================================== */
 /* MERMAID PLUGIN                                                       */
 /* ==================================================================== */
