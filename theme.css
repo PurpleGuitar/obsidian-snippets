@@ -126,6 +126,20 @@
 }
 
 /* ==================================================================== */
+/* BLOCKQUOTES                                                          */
+/* ==================================================================== */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote {
+    background-color: var(--background-primary);
+    border-width: 1px 1px 1px 5px;
+    margin: 16px 30px !important;
+    padding: 10px 20px;
+}
+
+.cm-s-obsidian span.cm-quote {
+    color: var(--text-normal);
+}
+
+/* ==================================================================== */
 /* QUERIES                                                              */
 /* ==================================================================== */
 
