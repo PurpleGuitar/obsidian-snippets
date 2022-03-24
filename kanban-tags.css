@@ -17,8 +17,3 @@
     background-color: #67f;
     color: white;
 }
-
-.kanban-plugin__item-tags .kanban-plugin__item-tag[href="#BTT-Writer"] {
-    background-color: blue;
-    color: white;
-}
