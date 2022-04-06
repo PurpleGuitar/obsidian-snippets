@@ -287,6 +287,11 @@ button.button-as-link {
     display: none;
 }
 
+/* Fade out embed links. */
+.markdown-embed-link {
+    opacity: 0.25;
+}
+
 /* Don't bold dice roller results. */
 .dice-roller .embedded-table-result {
     font-weight: normal;

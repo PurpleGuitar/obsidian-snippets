@@ -1,4 +1,4 @@
-/* Remove scroll bar from transclusions */
+2/* Remove scroll bar from transclusions */
 .markdown-preview-view .markdown-embed-content {
     max-height: unset;
 }
@@ -34,6 +34,10 @@
 }
 .markdown-preview-view.no-embed-decorations .markdown-embed-content > .markdown-preview-view {
     padding: 0;
+    margin: 0;
+}
+
+.markdown-preview-view.no-embed-decorations .markdown-embed .dataview.list-view-ul {
     margin: 0;
 }
 
