@@ -265,6 +265,14 @@ button.button-as-link {
     border: 1px solid var(--text-muted) !important;
 }
 
+.is-complete .kanban-plugin__item-title-wrapper {
+    background: var(--background-primary-alt);
+}
+
+.is-complete .kanban-plugin__item-title {
+    color: var(--text-muted);
+}
+
 /* EXPERIMENTAL: Hide cards that don't match search */
 .kanban-plugin__item.is-search-miss {
     display: none;
