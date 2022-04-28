@@ -1,4 +1,4 @@
-2/* Remove scroll bar from transclusions */
+/* Remove scroll bar from transclusions */
 .markdown-preview-view .markdown-embed-content {
     max-height: unset;
 }
