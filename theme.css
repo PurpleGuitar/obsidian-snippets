@@ -292,6 +292,14 @@ button.button-as-link {
     font-size: var(--font-text-size) !important;
 }
 
+.kanban-plugin__markdown-preview-view {
+    font-size: var(--font-text-size) !important;
+}
+
+.kanban-plugin__grow-wrap>textarea {
+    font-size: var(--font-text-size) !important;
+}
+
 /* EXPERIMENTAL: Hide cards that don't match search */
 .kanban-plugin__item.is-search-miss {
     display: none;
