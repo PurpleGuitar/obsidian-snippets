@@ -272,9 +272,11 @@ button.button-as-link {
 /* ==================================================================== */
 /* KANBAN PLUGIN                                                        */
 /* ==================================================================== */
+
+/* I don't like using !important, but in this case the plugin's css will
+ * override mine if I don't. :( */
+
 .kanban-plugin__item {
-    /* I don't like using !important, but in this case
-     * the plugin's css will override mine if I don't. */
     border: 1px solid var(--text-muted) !important;
 }
 
@@ -284,6 +286,10 @@ button.button-as-link {
 
 .is-complete .kanban-plugin__item-title {
     color: var(--text-muted);
+}
+
+.kanban-plugin__markdown-preview-view {
+    font-size: var(--font-text-size) !important;
 }
 
 /* EXPERIMENTAL: Hide cards that don't match search */
