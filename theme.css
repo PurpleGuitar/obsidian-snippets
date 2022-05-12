@@ -48,9 +48,9 @@
 }
 
 /* Don't override font size */
-.markdown-source-view.mod-cm6 .cm-scroller {
-    font-size: var(--font-text-size);
-}
+/* .markdown-source-view.mod-cm6 .cm-scroller { */
+/*     font-size: var(--font-text-size); */
+/* } */
 
 /* ==================================================================== */
 /* LINKS                                                                */

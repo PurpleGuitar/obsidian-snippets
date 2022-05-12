@@ -1,12 +1,12 @@
 /* Monospace font (cm5) */
 .markdown-source-view {
     font-family: DejaVu Sans Mono, monospace;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 /* Monospace font (cm6) */
 .markdown-source-view.mod-cm6 .cm-scroller {
     font-family: DejaVu Sans Mono, monospace;
-    font-size: 15px;
+    font-size: 13px;
 }
 
