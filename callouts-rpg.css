@@ -1,0 +1,38 @@
+.callout[data-callout="outline"] {
+    --callout-color: 200, 200, 0;
+    --callout-icon: lucide-list-checks;
+}
+
+.callout[data-callout="secret"] {
+    --callout-color: 255, 150, 100;
+    --callout-icon: lucide-lock;
+}
+
+.callout[data-callout="person"] {
+    --callout-color: 0, 200, 0;
+    --callout-icon: lucide-user;
+}
+
+.callout[data-callout="place"] {
+    --callout-color: 0, 50, 200;
+    --callout-icon: lucide-home;
+}
+
+.callout[data-callout="reward"] {
+    --callout-color: 200, 0, 200;
+    --callout-icon: lucide-coins;
+}
+
+
+/* RED: Challenges, enemies, monsters */
+
+.callout[data-callout="monster"] {
+    --callout-color: 200, 0, 0;
+    --callout-icon: lucide-skull;
+}
+
+.callout[data-callout="challenge"] {
+    --callout-color: 200, 0, 0;
+    --callout-icon: lucide-skull;
+}
+
