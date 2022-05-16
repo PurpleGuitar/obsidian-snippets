@@ -1,5 +1,5 @@
 .callout[data-callout="outline"] {
-
+    --callout-color: 220, 200, 0;
     --callout-icon: lucide-list-checks;
 }
 
