@@ -323,9 +323,12 @@ button.button-as-link {
     display: none;
 }
 
-/* Fade out embed links. */
+/* EXPERIMENTAL: Hide embed links unless you hover over them. */
 .markdown-embed-link {
-    opacity: 0.25;
+    opacity: 0.0;
+}
+.markdown-embed-link:hover {
+    opacity: 1.0;
 }
 
 /* Don't bold dice roller results. */
