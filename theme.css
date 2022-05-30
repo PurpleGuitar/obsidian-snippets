@@ -116,6 +116,26 @@
 }
 
 /* ==================================================================== */
+/* CHECKLISTS                                                           */
+/* ==================================================================== */
+
+/* Special handling for canceled tasks, e.g.
+ * - [x] This is done
+ * - [-] This was canceled
+ * - [ ] Needs doing
+ */
+
+/* Make item text gray but not struck out. */
+ul > li.task-list-item[data-task="-"] {
+    color: var(--text-faint);
+}
+
+/* Make checkbox light gray */
+ul > li.task-list-item[data-task="-"] > input {
+    filter: grayscale(100%) opacity(25%);
+}
+
+/* ==================================================================== */
 /* CODE BLOCKS                                                          */
 /* ==================================================================== */
 .cm-s-obsidian pre.HyperMD-codeblock {
