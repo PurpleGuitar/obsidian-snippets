@@ -276,6 +276,15 @@ button.button-as-link {
 /* IMAGE PLACEMENT                                                      */
 /* ==================================================================== */
 
+.markdown-rendered img.portrait-right {
+    max-width: 30%;
+    float: right;
+    background: white;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
 .markdown-preview-view .image-embed img[src*="-portrait-right"] {
     max-width: 30%;
     float: right;
