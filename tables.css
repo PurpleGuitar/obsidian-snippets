@@ -1,10 +1,14 @@
+/*
+ * ========================================================
+ * PREVIEW MODE
+ * ========================================================
+ */
 
 /* Center tables on the page */
 .markdown-preview-view table {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 /* Color odd and even rows */
 .markdown-preview-view th {
@@ -14,6 +18,29 @@
       background-color: var(--background-primary);
 }
 .markdown-preview-view tr:nth-child(even) {
+      background-color: var(--background-secondary);
+}
+
+/*
+ * ========================================================
+ * LIVE PREVIEW MODE
+ * ========================================================
+ */
+
+/* Center tables on the page */
+.markdown-rendered table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Color odd and even rows */
+.markdown-rendered th {
+      background-color: var(--background-secondary-alt);
+}
+.markdown-rendered tr:nth-child(odd) {
+      background-color: var(--background-primary);
+}
+.markdown-rendered tr:nth-child(even) {
       background-color: var(--background-secondary);
 }
 
