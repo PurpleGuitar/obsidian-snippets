@@ -253,6 +253,11 @@ button.button-as-link {
     vertical-align: top;
 }
 
+/* Color the row count so that it matches the table theme. */
+.dataview.small-text {
+        color: var(--text-faint) !important;
+}
+
 /* ==================================================================== */
 /* SLIDES (reveal.js)                                                   */
 /* ==================================================================== */
