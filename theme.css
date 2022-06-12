@@ -285,6 +285,16 @@ button.button-as-link {
     border: 1px solid black;
 }
 
+.markdown-rendered img.portrait-right-small {
+    max-width: 150px;
+    max-height: 150px;
+    float: right;
+    background: white;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
 .markdown-preview-view .image-embed img[src*="-portrait-right"] {
     max-width: 30%;
     float: right;
