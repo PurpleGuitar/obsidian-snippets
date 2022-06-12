@@ -286,8 +286,8 @@ button.button-as-link {
 }
 
 .markdown-rendered img.portrait-right-small {
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 200px;
+    max-height: 200px;
     float: right;
     background: white;
     padding: 5px;
