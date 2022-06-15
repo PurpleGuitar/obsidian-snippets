@@ -385,6 +385,11 @@ button.button-as-link {
     max-width: 400px !important;
 }
 
+/* Prevent popout sections from getting too tall. */
+.is-popout-window .markdown-preview-view {
+    height: unset;
+}
+
 /* ==================================================================== */
 /* GRAVEYARD                                                            */
 /*  .-.                                                                 */
