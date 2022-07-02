@@ -273,52 +273,6 @@ button.button-as-link {
 }
 
 /* ==================================================================== */
-/* IMAGE PLACEMENT                                                      */
-/* ==================================================================== */
-
-.markdown-rendered img.portrait-right {
-    max-width: 30%;
-    float: right;
-    background: white;
-    padding: 5px;
-    margin-left: 5px;
-    border: 1px solid black;
-}
-
-.markdown-rendered img.portrait-right-small {
-    max-width: 200px;
-    max-height: 200px;
-    float: right;
-    background: white;
-    padding: 5px;
-    margin-left: 5px;
-    border: 1px solid black;
-}
-
-.markdown-preview-view .image-embed img[src*="-portrait-right"] {
-    max-width: 30%;
-    float: right;
-    background: white;
-    padding: 5px;
-    margin-left: 5px;
-    border: 1px solid black;
-}
-
-
-.cm-editor .image-embed img[src*="-portrait-right"] {
-    max-width: 30%;
-    float: right;
-    background: white;
-    padding: 5px;
-    margin-left: 5px;
-    border: 1px solid black;
-}
-
-.markdown-preview-view .image-embed img[src*="-thumbnail"] {
-    max-width: 128px;
-}
-
-/* ==================================================================== */
 /* KANBAN PLUGIN                                                        */
 /* ==================================================================== */
 
