@@ -4,19 +4,16 @@ span.img-max-width-25pct {
 }
 
 span.img-float-right {
-    display: block;
     float: right;
 }
 
 span.img-simple-border {
-    display: block;
     margin: 3px;
     padding: 3px;
     border: thin solid black;
 }
 
 span.img-portrait-right {
-    display: block;
     max-width: 25%;
     float: right;
     margin: 3px;
@@ -24,8 +21,14 @@ span.img-portrait-right {
     border: thin solid black;
 }
 
+span.img-portrait-right-small {
+    max-width: 20%;
+    float: right;
+    margin: 1px;
+    padding: 1px;
+}
+
 span.img-portrait-right-shadow {
-    display: block;
     max-width: 25%;
     float: right;
     margin: 3px;
