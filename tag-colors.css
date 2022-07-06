@@ -1,0 +1,14 @@
+a.tag[href="#ready"] {
+    background-color: #393;
+    color: white;
+}
+
+a.tag[href="#working"] {
+    background-color: #993;
+    color: white;
+}
+
+a.tag[href="#done"] {
+    background-color: #33a;
+    color: white;
+}

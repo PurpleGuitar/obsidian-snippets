@@ -1,8 +1,3 @@
-.callout[data-callout="outline"] {
-    --callout-color: 220, 200, 0;
-    --callout-icon: lucide-list-checks;
-}
-
 .callout[data-callout="secret"] {
     --callout-color: 255, 150, 100;
     --callout-icon: lucide-lock;
@@ -34,5 +29,17 @@
 .callout[data-callout="challenge"] {
     --callout-color: 200, 0, 0;
     --callout-icon: lucide-skull;
+}
+
+/* YELLOW: Outlines, quests */
+
+.callout[data-callout="outline"] {
+    --callout-color: 220, 200, 0;
+    --callout-icon: lucide-list-checks;
+}
+
+.callout[data-callout="quest"] {
+    --callout-color: 220, 200, 0;
+    --callout-icon: lucide-flag;
 }
 
