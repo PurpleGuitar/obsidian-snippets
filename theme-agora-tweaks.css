@@ -1,0 +1,4 @@
+/* Table headers were unreadably dark */
+.theme-light {
+    --thead-bg-color: var(--col-lighter-gray);
+}

@@ -232,17 +232,6 @@ ul > li.task-list-item[data-task="-"] > input {
     font-weight: bold;
 }
 
-/* ==================================================================== */
-/* BUTTON PLUGIN                                                        */
-/* ==================================================================== */
-
-button.button-as-link {
-    color: var(--text-accent);
-    font-size: var(--editor-font-size);
-    font-family: var(--default-font);
-    margin: 0em;
-    padding: 0em;
-}
 
 /* ==================================================================== */
 /* DATAVIEW PLUGIN                                                      */
