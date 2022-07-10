@@ -6,7 +6,7 @@ button.button-as-link {
     color: var(--text-accent);
     font-size: var(--editor-font-size);
     font-family: var(--default-font);
-    background-color: var(--background-primary);
+    background-color: #ffffff00;
     margin: 0em;
     padding: 0em;
 }

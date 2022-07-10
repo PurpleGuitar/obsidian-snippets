@@ -1,4 +1,5 @@
 /* Table headers were unreadably dark */
 .theme-light {
     --thead-bg-color: var(--col-lighter-gray);
+    --th-hover-color: var(--col-light-gray);
 }
