@@ -3,6 +3,7 @@
 /* ==================================================================== */
 
 button.button-as-link {
+    display: inline-block;
     color: var(--text-accent);
     font-size: var(--editor-font-size);
     font-family: var(--default-font);
