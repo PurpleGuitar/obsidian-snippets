@@ -329,8 +329,22 @@ ul > li.task-list-item[data-task="-"] > input {
 }
 
 /* Prevent popout sections from getting too tall. */
-.is-popout-window .markdown-preview-view {
-    height: unset;
+/* .is-popout-window .markdown-preview-view { */
+/*     height: unset; */
+/* } */
+
+/* Make task pills cuter. */
+span.dataview.inline-field-key {
+    border: thin solid var(--text-muted);
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+span.dataview.inline-field-value {
+    border: thin solid var(--text-muted);
+    border-left: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 /* ==================================================================== */

@@ -1,3 +1,10 @@
+.callout {
+    border-radius: 10px;
+}
+
+.callout-title {
+    border-radius: 10px 10px 0px 0px;
+}
 
 .callout[data-callout="craig"] {
     --callout-color: 220, 200, 0;
@@ -11,7 +18,7 @@
     margin-right: 100px;
 }
 
-.callout[data-callout="other"] {
+.callout[data-callout="person"] {
     --callout-color: 200, 200, 200;
     --callout-icon: lucide-user;
     margin-right: 100px;
