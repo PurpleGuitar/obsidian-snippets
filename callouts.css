@@ -1,0 +1,19 @@
+
+.callout[data-callout="craig"] {
+    --callout-color: 220, 200, 0;
+    --callout-icon: lucide-dice-6;
+    margin-left: 100px;
+}
+
+.callout[data-callout="glenn"] {
+    --callout-color: 0, 0, 200;
+    --callout-icon: lucide-gamepad-2;
+    margin-right: 100px;
+}
+
+.callout[data-callout="other"] {
+    --callout-color: 200, 200, 200;
+    --callout-icon: lucide-user;
+    margin-right: 100px;
+}
+
