@@ -334,6 +334,9 @@ ul > li.task-list-item[data-task="-"] > input {
 /* } */
 
 /* Make task pills cuter. */
+span.dataview.inline-field {
+    white-space: nowrap;
+}
 span.dataview.inline-field-key {
     border: thin solid var(--text-muted);
     border-right: none;
