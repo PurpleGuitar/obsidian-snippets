@@ -350,6 +350,15 @@ span.dataview.inline-field-value {
     border-bottom-right-radius: 10px;
 }
 
+
+/* Fix superscripts bumping line height */
+sup { 
+       vertical-align: top; 
+       position: relative; 
+       top: -0.3em; 
+       font-size: 0.75em; 
+}
+
 /* ==================================================================== */
 /* GRAVEYARD                                                            */
 /*  .-.                                                                 */
