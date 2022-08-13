@@ -13,6 +13,18 @@ span.img-simple-border {
     border: thin solid black;
 }
 
+span.img-icon-right {
+    float: right;
+    margin: 1em;
+    border: thin solid black;
+}
+
+.img-icon-right img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 span.img-portrait-right {
     max-width: 25%;
     float: right;
