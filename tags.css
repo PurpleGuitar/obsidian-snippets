@@ -1,11 +1,17 @@
+a.tag {
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+}
+
 a.tag[href="#ready"] {
     background-color: #393;
     color: white;
 }
 
 a.tag[href="#working"] {
-    background-color: #993;
-    color: white;
+    background-color: #ee0;
+    color: black;
 }
 
 a.tag[href="#done"] {
