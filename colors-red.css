@@ -1,0 +1,24 @@
+/* ==================================================================== */
+/* COLORS                                                               */
+/* ==================================================================== */
+.theme-light {
+
+    /* Official theme colors */
+    --background-primary: white;
+    --background-primary-alt: #f8f3f3;
+    --background-secondary: #f4f0f0;
+    --background-secondary-alt: #e8e0e0;
+    --text-accent: #aa1111;
+    --text-accent-hover: #cc3333;
+    --interactive-normal: var(--backround-secondary);
+    --interactive-accent: #cc3333;
+    --interactive-accent-hover: #cc5555;
+}
+
+/* ==================================================================== */
+/* CHECKBOXES                                                           */
+/* ==================================================================== */
+.markdown-preview-view .task-list-item-checkbox {
+    filter: hue-rotate(140deg);
+}
+
