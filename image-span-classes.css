@@ -26,25 +26,28 @@ span.img-icon-right {
 }
 
 span.img-portrait-right {
-    max-width: 25%;
-    float: right;
     margin: 3px;
     padding: 3px;
+    float: right;
+    max-width: 25%;
+    background-color: white;
     border: thin solid black;
 }
 
 span.img-portrait-right-small {
-    max-width: 20%;
     float: right;
     margin: 1px;
     padding: 1px;
+    max-width: 20%;
+    background-color: white;
 }
 
 span.img-portrait-right-shadow {
-    max-width: 25%;
-    float: right;
     margin: 3px;
     padding: 3px;
+    float: right;
+    max-width: 25%;
+    background-color: white;
     border: thin solid black;
     box-shadow: 5px 10px 10px #888888;
 }
