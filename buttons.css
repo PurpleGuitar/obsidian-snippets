@@ -10,4 +10,7 @@ button.button-as-link {
     background-color: #ffffff00;
     margin: 0em;
     padding: 0em;
+    box-shadow: none;
+    text-decoration: underline;
+    cursor: pointer;
 }

@@ -305,11 +305,6 @@ ul > li.task-list-item[data-task="-"] > input {
 /* ON PROBATION                                                         */
 /* ==================================================================== */
 
-/* Don't display embed titles. */
-.markdown-embed .markdown-embed-title {
-    display: none;
-}
-
 /* EXPERIMENTAL: Hide embed links unless you hover over them. */
 .markdown-embed-link {
     opacity: 0.0;

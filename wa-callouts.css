@@ -1,0 +1,42 @@
+.callout[data-callout="project-focus"] {
+    --callout-color: 202, 154, 142;
+    --callout-icon: search;
+}
+
+.callout[data-callout="project-active"] {
+    --callout-color: 191, 187, 152;
+    --callout-icon: wrench;
+}
+
+.callout[data-callout="project-ongoing"] {
+    --callout-color: 196, 191, 182;
+    --callout-icon: calendar;
+}
+
+.callout[data-callout="project-delegated"] {
+    --callout-color: 234, 203, 187;
+    --callout-icon: pointer;
+}
+
+.callout[data-callout="project-backlog"] {
+    --callout-color: 171, 174, 171;
+    --callout-icon: snowflake;
+}
+
+.callout[data-callout="craig"] {
+    --callout-color: 220, 200, 0;
+    --callout-icon: lucide-dice-6;
+    margin-left: 100px;
+}
+
+.callout[data-callout="glenn"] {
+    --callout-color: 0, 0, 200;
+    --callout-icon: lucide-gamepad-2;
+    margin-right: 100px;
+}
+
+.callout[data-callout="other"] {
+    --callout-color: 200, 200, 200;
+    --callout-icon: lucide-user;
+    margin-right: 100px;
+}
