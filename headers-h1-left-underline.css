@@ -2,6 +2,12 @@
 /* HEADERS                                                              */
 /* ==================================================================== */
 
+/* Center inline titles, if used. */
+.inline-title {
+    text-align: center;
+}
+
+
 /* Edit mode (cm5) */
 
 pre.HyperMD-header.HyperMD-header-1 {

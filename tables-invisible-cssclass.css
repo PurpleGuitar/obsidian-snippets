@@ -3,11 +3,11 @@
    in your frontmatter. */
 
 .markdown-preview-view.invisible-tables th {
-    padding: 0px;
+    /* padding: 0px; */
     border: none;
 }
 .markdown-preview-view.invisible-tables td {
-    padding: 0px;
+    /* padding: 0px; */
     border: none;
 }
 .markdown-preview-view.invisible-tables tr:nth-child(odd) {
