@@ -1,0 +1,15 @@
+.theme-light {
+    --color-accent-dark: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) - 35%));
+}
+
+h1 .internal-link {
+    color: var(--color-accent-dark);
+}
+
+h2 .internal-link {
+    color: var(--color-accent-dark);
+}
+
+h3 .internal-link {
+    color: var(--color-accent-dark);
+}
