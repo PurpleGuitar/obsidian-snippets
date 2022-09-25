@@ -1,0 +1,14 @@
+/* Edit mode (cm6) */
+
+.HyperMD-header.HyperMD-header-3 {
+    padding-bottom: 0em;
+    border-bottom: 1px dotted var(--text-faint);
+    text-decoration: none;
+}
+
+/* Preview mode */
+
+.markdown-preview-view h3 {
+    border-bottom: 1px dotted var(--text-faint);
+}
+
