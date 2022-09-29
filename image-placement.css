@@ -2,7 +2,7 @@
 /* IMAGE PLACEMENT                                                      */
 /* ==================================================================== */
 
-.markdown-rendered img.portrait-right {
+.markdown-rendered .portrait-right img {
     max-width: 30%;
     float: right;
     background: white;
@@ -11,7 +11,7 @@
     border: 1px solid black;
 }
 
-.markdown-rendered img.portrait-right-small {
+.markdown-rendered portrait-right-small img {
     max-width: 200px;
     max-height: 200px;
     float: right;
