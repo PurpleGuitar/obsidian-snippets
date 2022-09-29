@@ -46,6 +46,10 @@
     margin: 0;
 }
 
+.markdown-preview-view.no-embed-decorations .markdown-embed p {
+    margin: 0;
+}
+
 /* 
  * OPTIONAL no-embed-titles: Hide decoration and borders from embeds 
  */
