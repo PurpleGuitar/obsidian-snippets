@@ -19,7 +19,7 @@
 }
 
 span.cm-header-1 {
-    font-size: 18pt;
+    font-size: 20pt;
 }
 
 .HyperMD-header.HyperMD-header-2 {
@@ -28,7 +28,7 @@ span.cm-header-1 {
 }
 
 span.cm-header-2 {
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 .HyperMD-header.HyperMD-header-3 {
@@ -37,11 +37,11 @@ span.cm-header-2 {
 }
 
 span.cm-header-3 {
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 span.cm-header-4 {
-    font-size: 12pt;
+    font-size: 14pt;
 }
 
 /* Preview mode */
