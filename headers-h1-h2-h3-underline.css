@@ -60,6 +60,7 @@ span.cm-header-4 {
     border-bottom: 1px solid var(--text-normal);
     font-size: 16pt;
     line-height: 20pt;
+    font-weight: bold;
 }
 
 .markdown-preview-view h2 .internal-link {
@@ -70,6 +71,7 @@ span.cm-header-4 {
     border-bottom: 1px solid var(--text-faint);
     font-size: 14pt;
     line-height: 20pt;
+    font-weight: bold;
 }
 
 .markdown-preview-view h3 .internal-link {

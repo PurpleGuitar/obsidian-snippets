@@ -46,9 +46,16 @@
     margin: 0;
 }
 
-.markdown-preview-view.no-embed-decorations .markdown-embed p {
-    margin: 0;
-}
+
+/* div.markdown-preview-view.no-embed-decorations div.markdown-embed > div.markdown-embed-content > div > div > div > p { */
+/*     background: magenta; */
+/*     margin-block-end: 0px; */
+/* } */
+/* div.markdown-preview-view.no-embed-decorations div.markdown-embed div.markdown-embed > div.markdown-embed-content > div > div > div > p { */
+/*     background: green; */
+/*     margin-block-end: 16px; */
+/* } */
+
 
 /* 
  * OPTIONAL no-embed-titles: Hide decoration and borders from embeds 
