@@ -1,31 +1,31 @@
 /* Remove scroll bar from transclusions */
-.markdown-preview-view .markdown-embed-content {
-    max-height: unset;
-}
-.markdown-preview-view .markdown-embed-content > .markdown-preview-view {
-    max-height: unset;
-    background-color: var(--theme-transclude-background);
-}
+/* .markdown-preview-view .markdown-embed-content { */
+/*     max-height: unset; */
+/* } */
+/* .markdown-preview-view .markdown-embed-content > .markdown-preview-view { */
+/*     max-height: unset; */
+/*     background-color: var(--theme-transclude-background); */
+/* } */
 
 /* Make transclusions pretty */
-.markdown-preview-view .markdown-embed, .markdown-preview-view .file-embed {
-    padding: 5px;
-    margin: 0px;
-    border: 1px solid var(--background-modifier-border);
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px var(--background-modifier-border);
-    background-color: var(--theme-transclude-background);
-}
+/* .markdown-preview-view .markdown-embed, .markdown-preview-view .file-embed { */
+/*     padding: 5px; */
+/*     margin: 0px; */
+/*     border: 1px solid var(--background-modifier-border); */
+/*     border-radius: 5px; */
+/*     box-shadow: 2px 2px 2px var(--background-modifier-border); */
+/*     background-color: var(--theme-transclude-background); */
+/* } */
 
 /* Remove scroll bar from search results */
-.markdown-preview-view .internal-query.is-embed .search-results-children {
-    max-height: unset;
-}
+/* .markdown-preview-view .internal-query.is-embed .search-results-children { */
+/*     max-height: unset; */
+/* } */
 
 /* Don't display embed titles. */
-.markdown-embed .markdown-embed-title {
-    display: none;
-}
+/* .markdown-embed .markdown-embed-title { */
+/*     display: none; */
+/* } */
 
 /* 
  * OPTIONAL no-embed-decorations: Hide decoration and borders from embeds 
