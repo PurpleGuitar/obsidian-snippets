@@ -11,7 +11,7 @@
     border: 1px solid black;
 }
 
-.markdown-rendered portrait-right-small img {
+.markdown-rendered .portrait-right-small img {
     max-width: 200px;
     max-height: 200px;
     float: right;
