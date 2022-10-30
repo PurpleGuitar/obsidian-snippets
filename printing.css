@@ -1,16 +1,16 @@
 @media print {
 
     /* Don't display page titles on embeds. */
-    .markdown-embed .markdown-embed-title {
-        display: none;
-    }
+    /* .markdown-embed .markdown-embed-title { */
+    /*     display: none; */
+    /* } */
 
     /* Don't display decorations on embeds. */
     .markdown-preview-view .markdown-embed, .markdown-preview-view .file-embed {
         border: none;
         box-shadow: none;
-        padding: 0;
-        margin: 5px;
+        padding: 0px;
+        margin: 0px;
     }
 
 }

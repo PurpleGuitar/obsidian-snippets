@@ -22,10 +22,11 @@
 /*     max-height: unset; */
 /* } */
 
-/* Don't display embed titles. */
-.markdown-embed .markdown-embed-title {
+/* Hide embed titles if requested. */
+.embed-hide-titles .markdown-embed .markdown-embed-title {
     display: none;
 }
+
 
 /* 
  * OPTIONAL no-embed-decorations: Hide decoration and borders from embeds 
