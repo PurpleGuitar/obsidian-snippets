@@ -1,0 +1,4 @@
+/* Hide embed titles. */
+.markdown-embed .markdown-embed-title {
+    display: none;
+}
