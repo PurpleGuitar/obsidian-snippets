@@ -1,0 +1,6 @@
+@media print {
+  hr {
+	  break-after:page;
+	  visibility: hidden;
+  }
+}
