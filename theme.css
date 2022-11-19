@@ -313,11 +313,6 @@ ul > li.task-list-item[data-task="-"] > input {
     opacity: 1.0;
 }
 
-/* Don't bold dice roller results. */
-.dice-roller .embedded-table-result {
-    font-weight: normal;
-}
-
 /* Don't let mindmap nodes get too wide. */
 .mm-node .mm-node-content {
     max-width: 400px !important;

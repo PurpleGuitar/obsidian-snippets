@@ -27,6 +27,7 @@ span.img-icon-right {
 
 span.img-portrait-right {
     margin: 3px;
+    padding: 3px;
     float: right;
     max-width: 25%;
     background-color: white;
@@ -43,7 +44,8 @@ span.img-portrait-right-small {
 
 span.img-portrait-right-shadow {
     margin: 3px;
-    padding: 3px;
+    padding: 0px;
+    line-height: 0px;
     float: right;
     max-width: 25%;
     background-color: white;
