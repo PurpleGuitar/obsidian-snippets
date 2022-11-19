@@ -1,0 +1,4 @@
+/* Don't bold dice roller results. */
+.dice-roller .embedded-table-result {
+    font-weight: normal;
+}
