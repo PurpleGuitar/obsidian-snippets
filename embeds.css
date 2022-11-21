@@ -38,6 +38,10 @@
     padding: 0;
     margin: 0;
 }
+.markdown-preview-view.no-embed-decorations .markdown-embed-link {
+    /* Make embed link invisible. */
+    color: #00000000;
+}
 .markdown-preview-view.no-embed-decorations .markdown-embed-content > .markdown-preview-view {
     padding: 0;
     margin: 0;
