@@ -68,3 +68,19 @@
 .markdown-preview-view.no-embed-titles .markdown-embed .markdown-embed-title {
     display: none;
 }
+
+/* 
+ * OPTIONAL no-embed-headings: Hide headings from embedded content
+ */
+.markdown-preview-view.no-embed-headings .markdown-embed h1 {
+    display: none;
+}
+.markdown-preview-view.no-embed-headings .markdown-embed h2 {
+    display: none;
+}
+.markdown-preview-view.no-embed-headings .markdown-embed h3 {
+    display: none;
+}
+.markdown-preview-view.no-embed-headings .markdown-embed h4 {
+    display: none;
+}
