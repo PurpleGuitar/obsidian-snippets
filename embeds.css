@@ -51,6 +51,9 @@
     margin: 0;
 }
 
+.markdown-preview-view.no-embed-decorations .markdown-embed .inline-title {
+    display: none;
+}
 
 /* div.markdown-preview-view.no-embed-decorations div.markdown-embed > div.markdown-embed-content > div > div > div > p { */
 /*     background: magenta; */
