@@ -27,6 +27,11 @@
     display: none;
 }
 
+/* Hide embedded h1s if requested. */
+.embed-hide-h1 .markdown-embed h1 {
+    display: none;
+}
+
 
 /* 
  * OPTIONAL no-embed-decorations: Hide decoration and borders from embeds 
