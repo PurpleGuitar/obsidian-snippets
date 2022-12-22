@@ -13,4 +13,8 @@
         margin: 0px;
     }
 
+    /* Hide embedded titles. */
+    .markdown-embed .markdown-embed-title {
+        display: none;
+    }
 }
