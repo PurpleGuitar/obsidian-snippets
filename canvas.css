@@ -1,0 +1,7 @@
+.canvas-node-container .inline-title {
+    display: None;
+}
+
+.canvas-node-label {
+    color: var(--text-muted);
+}
