@@ -11,7 +11,7 @@ span.dataview.inline-field-key {
     background: hsl(
         var(--accent-h), 
         var(--accent-s), 
-        calc(var(--accent-l) / 0.5 ));
+        calc(var(--accent-l) * 1.3));
 }
 
 span.dataview.inline-field-value {
