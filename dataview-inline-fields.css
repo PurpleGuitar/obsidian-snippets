@@ -20,3 +20,10 @@ span.dataview.inline-field-value {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+
+/* Optionally hide inline fields. */
+.hide-inline-fields span.dataview.inline-field {
+    display: none;
+}
+
