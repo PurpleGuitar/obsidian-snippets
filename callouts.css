@@ -26,3 +26,9 @@
     margin: 12px;
 }
 
+.callout:is([data-callout-metadata^="sidebar"]) {
+    /* Hat tip: https://forum.obsidian.md/t/callout-columns/47279/15 */
+    max-width: 40%;
+    float: right;
+    margin: 12px;
+}
