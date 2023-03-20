@@ -90,11 +90,34 @@ span.cm-header-4 {
     line-height: 16pt;
 }
 
-/* OPTIONAL: No underlines */
+/* ==================================== */
+/* no-h-underline: No header underlines */
+/* ==================================== */
+
 .markdown-preview-view.no-h-underline h1 {
     border-bottom: none;
 }
 
 .markdown-preview-view.no-h-underline h2 {
+    border-bottom: none;
+}
+
+.markdown-preview-view.no-h-underline h3 {
+    border-bottom: none;
+}
+
+/* ================================= */
+/* no-h2-underline: No h2 underlines */
+/* ================================= */
+
+.markdown-preview-view.no-h2-underline h2 {
+    border-bottom: none;
+}
+
+/* ================================= */
+/* no-h3-underline: No h3 underlines */
+/* ================================= */
+
+.markdown-preview-view.no-h3-underline h3 {
     border-bottom: none;
 }
