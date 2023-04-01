@@ -11,6 +11,15 @@
     border: 1px solid black;
 }
 
+.markdown-rendered .icon-right img {
+    max-height: 6em;
+    float: right;
+    background: white;
+    padding: 0px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
 .markdown-rendered .portrait-right-small img {
     max-width: 200px;
     max-height: 200px;
