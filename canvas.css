@@ -1,7 +1,11 @@
-.canvas-node-container .inline-title {
-    display: None;
-}
+/* .canvas-node-container .inline-title { */
+/*     display: None; */
+/* } */
 
-.canvas-node-label {
-    color: var(--text-muted);
+/* .canvas-node-label { */
+/*     color: var(--text-muted); */
+/* } */
+
+.canvas-path-label {
+    font-size: var(--font-text-size);
 }
