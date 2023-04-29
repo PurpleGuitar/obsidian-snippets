@@ -21,6 +21,11 @@ span.dataview.inline-field-value {
     border-bottom-right-radius: 10px;
 }
 
+/* Make dataview row count less noticeable */
+.dataview.small-text {
+    color: var(--text-faint);
+}
+
 
 /* Optionally hide inline fields. */
 .hide-inline-fields span.dataview.inline-field {
