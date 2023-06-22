@@ -94,6 +94,32 @@
 }
 
 /* 
+ * OPTIONAL embed-show-as-h1: Show embed titles as h1s
+ */
+.embed-show-as-h1 .markdown-embed .markdown-embed-title {
+    display: block;
+    border-bottom: 2px solid var(--text-normal);
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+    font-size: 20pt;
+    line-height: 22pt;
+    font-weight: bold;
+}
+
+/* 
+ * OPTIONAL embed-show-as-h2: Show embed titles as h2s
+ */
+.embed-show-as-h2 .markdown-embed .markdown-embed-title {
+    display: block;
+    border-bottom: 1px solid var(--text-normal);
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+    font-size: 16pt;
+    line-height: 20pt;
+    font-weight: bold;
+}
+
+/* 
  * OPTIONAL embed-show-as-h3: Show embed titles as h3s
  */
 .embed-show-as-h3 .markdown-embed .markdown-embed-title {
