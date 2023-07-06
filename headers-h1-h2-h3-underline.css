@@ -2,12 +2,11 @@
 /* HEADERS                                                              */
 /* ==================================================================== */
 
-/* Inline Title */
+/* Center Inline Title */
 
 .inline-title {
     text-align: center;
 }
-
 @media print {
   h1:not([data-heading]), h1[data-heading=""] {
       text-align: center !important;
@@ -17,7 +16,6 @@
 
 
 /* Edit mode (cm6) */
-
 
 .HyperMD-header.HyperMD-header-1 {
     padding-bottom: 0em;
