@@ -13,14 +13,6 @@
     margin-block-end: 0.5em;
 }
 
-/* .callout[data-callout="sidebar"] { */
-/*     --callout-color: 189, 142, 55; */
-/*     --callout-icon: lucide-info; */
-/*     max-width: 40%; */
-/*     float: right; */
-/*     margin: 12px; */
-/* } */
-
 .callout:is([data-callout-metadata^="sidebar"]) {
     /* Hat tip: https://forum.obsidian.md/t/callout-columns/47279/15 */
     max-width: 40%;
