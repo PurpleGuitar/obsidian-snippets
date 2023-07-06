@@ -1,9 +1,20 @@
 /* ==================================================================== */
-/* IMAGE PLACEMENT                                                      */
+/* IMAGE PLACEMENT BY SPAN                                              */
+/* <span class="portrait-right">![[my_img.png]]</span>                  */
 /* ==================================================================== */
 
 .markdown-rendered .portrait-right img {
     max-width: 30%;
+    float: right;
+    background: white;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
+.markdown-rendered .portrait-right-small img {
+    max-width: 200px;
+    max-height: 200px;
     float: right;
     background: white;
     padding: 5px;
@@ -20,9 +31,13 @@
     border: 1px solid black;
 }
 
-.markdown-rendered .portrait-right-small img {
-    max-width: 200px;
-    max-height: 200px;
+/* ==================================================================== */
+/* IMAGE PLACEMENT BY FILENAME                                          */
+/* ![[my-image-portrait-right.jpg]]                                     */
+/* ==================================================================== */
+
+.cm-editor .image-embed img[src*="-portrait-right"] {
+    max-width: 30%;
     float: right;
     background: white;
     padding: 5px;
@@ -40,14 +55,6 @@
 }
 
 
-.cm-editor .image-embed img[src*="-portrait-right"] {
-    max-width: 30%;
-    float: right;
-    background: white;
-    padding: 5px;
-    margin-left: 5px;
-    border: 1px solid black;
-}
 
 .markdown-preview-view .image-embed img[src*="-thumbnail"] {
     max-width: 128px;
