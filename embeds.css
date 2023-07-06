@@ -1,38 +1,3 @@
-/* Remove scroll bar from transclusions */
-/* .markdown-preview-view .markdown-embed-content { */
-/*     max-height: unset; */
-/* } */
-/* .markdown-preview-view .markdown-embed-content > .markdown-preview-view { */
-/*     max-height: unset; */
-/*     background-color: var(--theme-transclude-background); */
-/* } */
-
-/* Make transclusions pretty */
-/* .markdown-preview-view .markdown-embed, .markdown-preview-view .file-embed { */
-/*     padding: 5px; */
-/*     margin: 0px; */
-/*     border: 1px solid var(--background-modifier-border); */
-/*     border-radius: 5px; */
-/*     box-shadow: 2px 2px 2px var(--background-modifier-border); */
-/*     background-color: var(--theme-transclude-background); */
-/* } */
-
-/* Remove scroll bar from search results */
-/* .markdown-preview-view .internal-query.is-embed .search-results-children { */
-/*     max-height: unset; */
-/* } */
-
-/* Hide embed titles if requested. */
-.embed-hide-titles .markdown-embed .markdown-embed-title {
-    display: none;
-}
-
-/* Hide embedded h1s if requested. */
-.embed-hide-h1 .markdown-embed h1 {
-    display: none;
-}
-
-
 /* 
  * OPTIONAL no-embed-decorations: Hide decoration and borders from embeds 
  */
@@ -60,18 +25,8 @@
     display: none;
 }
 
-/* div.markdown-preview-view.no-embed-decorations div.markdown-embed > div.markdown-embed-content > div > div > div > p { */
-/*     background: magenta; */
-/*     margin-block-end: 0px; */
-/* } */
-/* div.markdown-preview-view.no-embed-decorations div.markdown-embed div.markdown-embed > div.markdown-embed-content > div > div > div > p { */
-/*     background: green; */
-/*     margin-block-end: 16px; */
-/* } */
-
-
 /* 
- * OPTIONAL no-embed-titles: Hide decoration and borders from embeds 
+ * OPTIONAL no-embed-titles: Don't display embed titles
  */
 .markdown-preview-view.no-embed-titles .markdown-embed .markdown-embed-title {
     display: none;
