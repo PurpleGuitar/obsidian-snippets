@@ -1,0 +1,11 @@
+/* Resize Mermaid diagrams to fit on the page by default */
+.mermaid svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Override resizing if desired */
+.no-resize-mermaid .mermaid svg {
+    max-width: inherit;
+    height: inherit;
+}
