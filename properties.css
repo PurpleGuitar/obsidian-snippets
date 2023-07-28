@@ -1,0 +1,9 @@
+.metadata-content {
+    border: thin solid var(--text-faint);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.metadata-properties-title {
+    color: var(--text-faint);
+}
