@@ -1,0 +1,3 @@
+.markdown-rendered.no-heading-margin-top div:has( > :is(p,pre,table,ul,ol)) + div > :is(h1,h2,h3,h4,h5,h6) {
+    margin-top: 0px;
+}
