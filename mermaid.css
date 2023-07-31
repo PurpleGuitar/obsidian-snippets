@@ -10,10 +10,11 @@
     height: inherit;
 }
 
-
-.theme-light .mermaid-colors-light {
-    --color-red: #ff99aa;
-    --color-orange: #ffccaa;
+/* Make mindmap colors readable */
+.theme-light .mermaid {
+    --color-pink: #ffcccc;
+    --color-red: #ff7777;
+    --color-orange: #ffbb99;
     --color-yellow: #ffeeaa;
     --color-green: #bbffbb;
     --color-cyan: #bbffee;
