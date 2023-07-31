@@ -9,3 +9,14 @@
     max-width: inherit;
     height: inherit;
 }
+
+
+.theme-light .mermaid-colors-light {
+    --color-red: #ff99aa;
+    --color-orange: #ffccaa;
+    --color-yellow: #ffeeaa;
+    --color-green: #bbffbb;
+    --color-cyan: #bbffee;
+    --color-blue: #aaccff;
+    --color-purple: #ddbbff;
+}
