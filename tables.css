@@ -10,6 +10,12 @@
     margin-right: auto;
 }
 
+/* Don't center tables on the page */
+.markdown-preview-view.no-table-center table {
+    margin-left: inherit;
+    margin-right: inherit;
+}
+
 /* Color odd and even rows */
 .markdown-preview-view th {
       background-color: var(--background-secondary-alt);
@@ -33,6 +39,13 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Don't center tables on the page */
+.markdown-rendered.no-table-center table {
+    margin-left: inherit;
+    margin-right: inherit;
+}
+
 
 /* Color odd and even rows */
 .markdown-rendered th {
