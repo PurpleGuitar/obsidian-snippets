@@ -10,7 +10,7 @@
     height: inherit;
 }
 
-/* Make mindmap colors readable */
+/* Make mindmap colors readable (Light mode) */
 .theme-light .mermaid {
     --color-red: #ff7777;
     --color-orange: #ffbb99;
@@ -20,4 +20,22 @@
     --color-blue: #aaccff;
     --color-purple: #ddbbff;
     --color-pink: #ffcccc;
+}
+
+/* Make mindmap colors readable (Dark mode) */
+.theme-dark .mermaid {
+    --color-red: #933;
+    --color-orange: #963;
+    --color-yellow: #993;
+    --color-green: #393;
+    --color-cyan: #399;
+    --color-blue: #339;
+    --color-purple: #639;
+    --color-pink: #966;
+}
+
+/* Override root text color in mermaid 
+ * so that it's the same color as regular node text */
+.mermaid .section-root text {
+    fill: inherit !important;
 }
