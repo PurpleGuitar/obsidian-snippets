@@ -31,6 +31,15 @@
     border: 1px solid black;
 }
 
+.markdown-rendered .icon-left img {
+    max-height: 6em;
+    float: left;
+    background: white;
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+
 /* ==================================================================== */
 /* IMAGE PLACEMENT BY FILENAME                                          */
 /* ![[my-image-portrait-right.jpg]]                                     */
