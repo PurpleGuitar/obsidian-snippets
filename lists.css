@@ -1,0 +1,12 @@
+.ul-striped ul li:nth-child(odd) {
+    background-color: var(--background-primary);
+}
+.ul-striped ul li:nth-child(even) {
+    background-color: var(--background-secondary);
+}
+.ul-striped-dark ul li:nth-child(odd) {
+    background-color: var(--background-primary);
+}
+.ul-striped-dark ul li:nth-child(even) {
+    background-color: var(--background-modifier-border);
+}
