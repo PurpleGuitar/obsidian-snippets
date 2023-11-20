@@ -16,6 +16,16 @@
     margin-right: inherit;
 }
 
+/* Darken cell borders */
+/* .markdown-rendered table { */
+/*     border-color: var(--color-base-100); */
+/* } */
+/* .markdown-rendered td { */
+/*       border-color: var(--color-base-0); */
+/* } */
+/* .markdown-rendered thead tr th { */
+/*       border-color: var(--color-base-0); */
+/* } */
 
 /* Color odd and even rows */
 .markdown-rendered th {
@@ -25,8 +35,8 @@
       background-color: var(--background-primary);
 }
 .markdown-rendered tr:nth-child(even) {
-      /* background-color: var(--background-secondary); */ /* Lighter */
-      background-color: var(--background-modifier-border); /* Darker */
+      /* background-color: var(--background-secondary);  */
+      background-color: var(--color-base-35);
 }
 
 /*
@@ -39,7 +49,7 @@
     --color-accent-tr-hover: hsl(
         calc(var(--accent-h) - 3), 
         calc(var(--accent-s) * 1.02), 
-        calc(var(--accent-l) * 1.75));
+        calc(var(--accent-l) * 2.5));
 }
 
 .theme-dark {
