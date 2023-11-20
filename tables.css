@@ -42,10 +42,19 @@
         calc(var(--accent-l) * 1.75));
 }
 
-/* TODO: .theme-dark */
+.theme-dark {
+    --color-accent-tr-hover: hsl(
+        calc(var(--accent-h) - 3), 
+        calc(var(--accent-s) * 1.02), 
+        calc(var(--accent-l) * 0.40));
+}
 
-.markdown-rendered .table-view-table > tbody > tr:hover {
-    background-color: var(--color-accent-tr-hover);
+/* Regular table */
+.markdown-rendered tbody tr:nth-child(odd):hover {
+      background-color: var(--color-accent-tr-hover);
+}
+.markdown-rendered tbody tr:nth-child(even):hover {
+      background-color: var(--color-accent-tr-hover);
 }
 
 /*
