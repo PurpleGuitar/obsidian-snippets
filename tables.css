@@ -16,17 +16,6 @@
     margin-right: inherit;
 }
 
-/* Darken cell borders */
-/* .markdown-rendered table { */
-/*     border-color: var(--color-base-100); */
-/* } */
-/* .markdown-rendered td { */
-/*       border-color: var(--color-base-0); */
-/* } */
-/* .markdown-rendered thead tr th { */
-/*       border-color: var(--color-base-0); */
-/* } */
-
 /* Color odd and even rows */
 .markdown-rendered th {
       background-color: var(--background-secondary-alt);
@@ -37,6 +26,14 @@
 .markdown-rendered tr:nth-child(even) {
       /* background-color: var(--background-secondary);  */
       background-color: var(--color-base-25);
+}
+
+/* Make cell borders stand out better */
+.theme-light {
+    --table-border-color: var(--color-base-40);
+}
+.theme-dark {
+    --table-border-color: var(--color-base-40);
 }
 
 /*
