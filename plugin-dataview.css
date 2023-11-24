@@ -32,3 +32,8 @@ span.dataview.inline-field-value {
     display: none;
 }
 
+/* TEMP (I hope) fix overflow issue with Dataview blocks */
+.block-language-dataview {
+    overflow-y: inherit;
+}
+
