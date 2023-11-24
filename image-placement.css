@@ -12,6 +12,15 @@
     border: 1px solid black;
 }
 
+.markdown-rendered .portrait-right-wide img {
+    max-width: 50%;
+    float: right;
+    background: white;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
 .markdown-rendered .portrait-right-small img {
     max-width: 200px;
     max-height: 200px;
