@@ -1,25 +1,41 @@
+/* Give callouts rounded edges. */
 .callout {
     border-radius: 10px;
-    border-width: 2px;
+
+    /* Draw border around callout if desired. */
+    /* border-width: 2px; */ 
+
 }
 
-.callout-title {
-    border-radius: 10px 10px 0px 0px;
-    font-size: 15pt;
-}
-
-.callout p {
-    margin-block-start: 0em;
-    margin-block-end: 0.5em;
-}
-
-.callout:is([data-callout-metadata^="sidebar"]) {
+/* [!info|sidebar]
+ * Moves the callout to the right-hand side.
+ */
+.callout:is([data-callout-metadata*="sidebar"]) {
     /* Hat tip: https://forum.obsidian.md/t/callout-columns/47279/15 */
     max-width: 40%;
     float: right;
     margin: 12px;
+    padding: 12px;
 }
 
-.callout:is([data-callout-metadata^="noicon"]) .callout-icon {
+/* [!info|noicon]
+ * Don't show icon.
+ */
+.callout:is([data-callout-metadata*="noicon"]) .callout-icon {
 	display: none;
 }
+
+/* [!info|notitle]
+ * Don't show title (also hides icon).
+ */
+.callout:is([data-callout-metadata*="notitle"]) .callout-title {
+	display: none;
+}
+
+/* [!info|nobackground]
+ * Make background color invisible.  Can be combined with notitle, etc. to hide other elements.
+ */
+.callout:is([data-callout-metadata*="nobackground"]) {
+	background-color: #aaaaaa00
+}
+
