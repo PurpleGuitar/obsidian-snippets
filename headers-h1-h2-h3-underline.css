@@ -55,6 +55,7 @@ span.cm-header-4 {
     border-bottom: 2px solid var(--text-normal);
     font-size: 20pt;
     line-height: 22pt;
+    overflow: hidden;
 }
 
 .markdown-preview-view h1 .internal-link {
@@ -66,6 +67,7 @@ span.cm-header-4 {
     font-size: 16pt;
     line-height: 20pt;
     font-weight: bold;
+    overflow: hidden;
 }
 
 .markdown-preview-view h2 .internal-link {
@@ -77,6 +79,7 @@ span.cm-header-4 {
     font-size: 14pt;
     line-height: 20pt;
     font-weight: bold;
+    overflow: hidden;
 }
 
 .markdown-preview-view h3 .internal-link {
