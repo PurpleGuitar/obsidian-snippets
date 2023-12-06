@@ -33,9 +33,12 @@
 }
 
 /* [!info|nobackground]
- * Make background color invisible.  Can be combined with notitle, etc. to hide other elements.
+ * Make background color invisible and remove margin and padding.  Can be
+ * combined with notitle, etc. to hide other elements.
  */
 .callout:is([data-callout-metadata*="nobackground"]) {
-	background-color: #aaaaaa00
+	background-color: #aaaaaa00;
+    margin: 0px;
+    padding: 0px;
 }
 
