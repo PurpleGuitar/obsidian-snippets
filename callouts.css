@@ -13,6 +13,7 @@
 .callout:is([data-callout-metadata*="sidebar"]) {
     /* Hat tip: https://forum.obsidian.md/t/callout-columns/47279/15 */
     max-width: 40%;
+    min-width: 25%;
     float: right;
     margin: 12px;
     padding: 12px;
@@ -42,3 +43,19 @@
     padding: 0px;
 }
 
+
+/* [!info|portrait-right]
+ * tag combines sidebar|notitle|nobackground 
+ */
+.callout:is([data-callout-metadata*="portrait-right"]) {
+    max-width: 40%;
+    min-width: 25%;
+    float: right;
+	background-color: #aaaaaa00;
+    margin: 0px;
+    padding: 5px;
+}
+
+.callout:is([data-callout-metadata*="portrait-right"]) .callout-title {
+	display: none;
+}
