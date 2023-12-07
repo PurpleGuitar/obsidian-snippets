@@ -70,3 +70,14 @@
 	margin-block-end: 0px;
 }
 
+.callout:is([data-callout-metadata*="portrait-right-30"]) {
+    max-width: 30%;
+}
+
+.callout:is([data-callout-metadata*="portrait-right-25"]) {
+    max-width: 20%;
+}
+
+.callout:is([data-callout-metadata*="portrait-right-20"]) {
+    max-width: 20%;
+}
