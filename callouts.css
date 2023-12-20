@@ -61,6 +61,11 @@
     z-index: 1;
 }
 
+
+.callout:is([data-callout-metadata*="portrait-right"]) img {
+    max-width: 100%;
+}
+
 .callout:is([data-callout-metadata*="portrait-right"]) .callout-title {
 	display: none;
 }
