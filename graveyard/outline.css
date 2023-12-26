@@ -1,0 +1,4 @@
+/* Don't wrap outline items. */
+.outline .tree-item-inner {
+    white-space: nowrap;
+}
