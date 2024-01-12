@@ -4,5 +4,13 @@
         column-count: 2;
     }
 
+    .print-three-columns {
+        column-count: 3;
+    }
+
+    .print-four-columns {
+        column-count: 4;
+    }
+
 }
 
