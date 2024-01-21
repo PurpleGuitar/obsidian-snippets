@@ -2,6 +2,8 @@
 
     .print-two-columns {
         column-count: 2;
+        column-gap: 2em;
+        column-rule: thin solid black;
     }
 
     .print-three-columns {
