@@ -28,7 +28,12 @@
 /* ul-flatten: hide all ul decorations and make it look like a flat list */
 .markdown-preview-view.ul-flatten ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0px;
     padding: 0px;
+}
+
+/* ul-flatten: hide all ul decorations and make it look like a flat list */
+.markdown-preview-view.no-ul-margin ul {
+    margin: 0px;
 }
 

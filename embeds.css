@@ -25,10 +25,14 @@
     display: none;
 }
 
+.markdown-preview-view.no-embed-decorations .markdown-embed .embed-title {
+    display: none;
+}
+
 /* 
  * OPTIONAL no-embed-titles: Don't display embed titles
  */
-.markdown-preview-view.no-embed-titles .markdown-embed .markdown-embed-title {
+.markdown-preview-view.no-embed-titles .markdown-embed .embed-title {
     display: none;
 }
 
