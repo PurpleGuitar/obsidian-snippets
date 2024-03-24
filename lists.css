@@ -33,7 +33,7 @@
 }
 
 /* ul-flatten: hide all ul decorations and make it look like a flat list */
-.markdown-preview-view.no-ul-margin ul {
-    margin: 0px;
+.markdown-preview-view.no-ul-top-margin ul {
+    margin-top: 0px;
 }
 
