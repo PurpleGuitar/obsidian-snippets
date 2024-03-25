@@ -32,7 +32,8 @@
     padding: 0px;
 }
 
-/* ul-flatten: hide all ul decorations and make it look like a flat list */
+/* no-ul-top-margin: Remove top margin from uls, making them closer to
+ * preceding paragraphs/headings */
 .markdown-preview-view.no-ul-top-margin ul {
     margin-top: 0px;
 }
