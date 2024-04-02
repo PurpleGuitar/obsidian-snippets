@@ -1,4 +1,11 @@
 /*
+ * no-inline-title: Don't show the file name at the top of the page.
+ */
+.no-inline-title .inline-title {
+    display: none;
+}
+
+/*
  * Remove the extra block margin around p tags.
  */
 .markdown-rendered.no-p-block-margin p {
