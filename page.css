@@ -1,8 +1,22 @@
+/*
+ * Remove the extra block margin around p tags.
+ */
 .markdown-rendered.no-p-block-margin p {
     margin-block-start: 0px;
     margin-block-end: 0px;
 }
 
+/*
+ * Remove the extra upper margin above H tags.
+ */
 .markdown-rendered.no-h-extra-margin h1,h2,h3,h4,h5,h6 {
     margin-top: 0px !important;
+}
+
+/*
+ * no-readable-line-width: Override system line width setting for this
+ * page.  Useful for large Mermaid diagrams, etc.
+ */
+.markdown-preview-view.is-readable-line-width.no-readable-line-width .markdown-preview-sizer {
+    max-width: none;
 }
