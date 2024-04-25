@@ -23,6 +23,9 @@
     /* Hide vertical lines too */
     display: none;
 }
+.markdown-preview-view.ul-hide-bullets div.list-bullet {
+    display: none;
+}
 
 /* ul-narrow: Make lists narrower */
 .markdown-preview-view.ul-narrow ul {
