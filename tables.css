@@ -97,3 +97,10 @@
 .markdown-rendered.invisible-tables tr:nth-child(even) {
       background-color: var(--background-primary);
 }
+.markdown-rendered.invisible-tables tbody tr:nth-child(odd):hover {
+      background-color: inherit;
+}
+.markdown-rendered.invisible-tables tbody tr:nth-child(even):hover {
+      background-color: inherit;
+}
+
