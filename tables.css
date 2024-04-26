@@ -4,7 +4,7 @@
  * ========================================================
  */
 
-/* Center tables on the page */
+/* Center tables on the page by default */
 .markdown-rendered table {
     margin-left: auto;
     margin-right: auto;
@@ -36,6 +36,7 @@
     --table-border-color: var(--color-base-40);
 }
 
+
 /*
  * ========================================================
  * Highlight table rows using accent color
@@ -56,12 +57,20 @@
         calc(var(--accent-l) * 0.40));
 }
 
-/* Regular table */
+/* Default: Highlight rows on hover. */
 .markdown-rendered tbody tr:nth-child(odd):hover {
       background-color: var(--color-accent-tr-hover);
 }
 .markdown-rendered tbody tr:nth-child(even):hover {
       background-color: var(--color-accent-tr-hover);
+}
+
+/* Optional: Don't highlight rows on hover. */
+.markdown-rendered.no-table-hover tbody tr:nth-child(odd):hover {
+      background-color: inherit;
+}
+.markdown-rendered.no-table-hover tbody tr:nth-child(even):hover {
+      background-color: inherit;
 }
 
 /*
