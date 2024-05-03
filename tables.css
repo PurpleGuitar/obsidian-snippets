@@ -91,6 +91,9 @@
     /* padding: 0px; */
     border: none;
 }
+.markdown-rendered.invisible-tables th {
+      background-color: var(--background-primary);
+}
 .markdown-rendered.invisible-tables tr:nth-child(odd) {
       background-color: var(--background-primary);
 }
