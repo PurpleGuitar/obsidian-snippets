@@ -28,8 +28,8 @@
 }
 
 /* ul-narrow: Make lists narrower */
-.markdown-preview-view.ul-narrow ul {
-    padding-left: 14px;
+.markdown-preview-view.ul-narrow li {
+    margin-left: 18px;
 }
 
 /* ul-flatten: hide all ul decorations and make it look like a flat list */
