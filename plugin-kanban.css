@@ -1,0 +1,22 @@
+/* 
+ * Color cards with certain tags.  Conveniently, the kanban plugin provides
+ * the `.has-tag-xxx` css class when a card title contains a tag.
+ */
+
+.has-tag-todo .kanban-plugin__item-title-wrapper {
+    background: #ffffdd;
+}
+
+.has-tag-wait .kanban-plugin__item-title-wrapper {
+    background: #ffdddd;
+}
+
+/*
+ * Shade completed cards.  This needs to be after the tag modifiers so that
+ * it overrides tag coloring.
+ */
+
+.is-complete .kanban-plugin__item-title-wrapper {
+    background: var(--background-modifier-border);
+}
+
