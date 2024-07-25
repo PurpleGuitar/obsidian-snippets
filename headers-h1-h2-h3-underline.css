@@ -91,6 +91,11 @@ span.cm-header-4 {
     line-height: 16pt;
 }
 
+h1,h2,h3 {
+    /* Reset floating elements on new headers. */
+    clear: both;
+}
+
 /* ==================================== */
 /* no-h-underline: No header underlines */
 /* ==================================== */
