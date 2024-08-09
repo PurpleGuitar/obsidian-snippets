@@ -23,7 +23,7 @@
     /* Hide vertical lines too */
     display: none;
 }
-.markdown-preview-view.ul-hide-bullets div.list-bullet {
+.markdown-preview-view.ul-hide-bullets span.list-bullet {
     display: none;
 }
 
