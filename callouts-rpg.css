@@ -20,7 +20,7 @@
 /* ORANGE: Secrets */
 
 .callout[data-callout="secret"] {
-    --callout-color: 255, 150, 100;
+    --callout-color: 255, 125, 90;
     --callout-icon: lucide-lock;
 }
 
