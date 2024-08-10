@@ -12,7 +12,43 @@
     border: 1px solid black;
 }
 
-.markdown-rendered .portrait-right-wide img {
+.markdown-rendered .portrait-right-20 img {
+    max-width: 20%;
+    float: right;
+    background: white;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
+.markdown-rendered .portrait-right-25 img {
+    max-width: 25%;
+    float: right;
+    background: white;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
+.markdown-rendered .portrait-right-30 img {
+    max-width: 30%;
+    float: right;
+    background: white;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
+.markdown-rendered .portrait-right-35 img {
+    max-width: 35%;
+    float: right;
+    background: white;
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
+.markdown-rendered .portrait-right-50 img {
     max-width: 50%;
     float: right;
     background: white;
@@ -21,7 +57,7 @@
     border: 1px solid black;
 }
 
-.markdown-rendered .portrait-right-small img {
+.markdown-rendered .portrait-right-200px img {
     max-width: 200px;
     max-height: 200px;
     float: right;
