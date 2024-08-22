@@ -5,16 +5,19 @@
 .callout[data-callout="enemy"] {
     --callout-color: 200, 0, 0;
     --callout-icon: lucide-skull;
+    border: thin solid black;
 }
 
 .callout[data-callout="monster"] {
     --callout-color: 200, 0, 0;
     --callout-icon: lucide-skull;
+    border: thin solid black;
 }
 
 .callout[data-callout="challenge"] {
     --callout-color: 200, 0, 0;
     --callout-icon: lucide-skull;
+    border: thin solid black;
 }
 
 /* ORANGE: Secrets */
@@ -22,6 +25,7 @@
 .callout[data-callout="secret"] {
     --callout-color: 255, 125, 90;
     --callout-icon: lucide-lock;
+    border: thin solid black;
 }
 
 /* YELLOW: Outlines, quests */
@@ -29,11 +33,13 @@
 .callout[data-callout="outline"] {
     --callout-color: 220, 200, 0;
     --callout-icon: lucide-list-checks;
+    border: thin solid black;
 }
 
 .callout[data-callout="quest"] {
     --callout-color: 220, 200, 0;
     --callout-icon: lucide-flag;
+    border: thin solid black;
 }
 
 /* GREEN: People */
@@ -42,6 +48,7 @@
 .callout[data-callout="person"] {
     --callout-color: 0, 200, 0;
     --callout-icon: lucide-user;
+    border: thin solid black;
 }
 
 /* BLUE: Places */
@@ -49,6 +56,7 @@
 .callout[data-callout="place"] {
     --callout-color: 0, 50, 200;
     --callout-icon: lucide-home;
+    border: thin solid black;
 }
 
 /* PURPLE: Rewards */
@@ -56,5 +64,6 @@
 .callout[data-callout="reward"] {
     --callout-color: 200, 0, 200;
     --callout-icon: lucide-coins;
+    border: thin solid black;
 }
 
