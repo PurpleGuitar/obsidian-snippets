@@ -1,6 +1,9 @@
 /* 
  * OPTIONAL no-embed-decorations: Hide decoration and borders from embeds 
  */
+
+/* Preview view */
+
 .markdown-preview-view.no-embed-decorations .markdown-embed {
     background-color: var(--theme-page-background);
     border: none;
@@ -28,6 +31,26 @@
 .markdown-preview-view.no-embed-decorations .markdown-embed .embed-title {
     display: none;
 }
+
+/* "Live Preview" view */
+
+.markdown-source-view.no-embed-decorations .markdown-embed {
+    background-color: var(--theme-page-background);
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+
+.markdown-source-view.no-embed-decorations .markdown-embed-link {
+    /* Make embed link invisible. */
+    color: #00000000;
+}
+
+.markdown-source-view.no-embed-decorations .markdown-embed .embed-title {
+    display: none;
+}
+
 
 /* 
  * OPTIONAL no-embed-titles: Don't display embed titles
