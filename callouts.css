@@ -54,7 +54,7 @@
     float: right;
 	background-color: white;
     margin: 5px;
-    padding: 5px 5px 0px 5px;
+    padding: 5px 5px 5px 5px;
     border: thin solid black;
     border-radius: 5px;
     position: relative;
@@ -69,6 +69,10 @@
 
 .callout:is([data-callout-metadata*="portrait-right"]) .callout-title {
 	display: none;
+}
+
+.callout:is([data-callout-metadata*="portrait-right"]) .callout-content {
+	overflow-x: clip;
 }
 
 .callout:is([data-callout-metadata*="portrait-right"]) p {
