@@ -80,19 +80,9 @@
 	margin-block-end: 0px;
 }
 
-.callout:is([data-callout-metadata*="portrait-right-30"]) {
-    max-width: 30%;
-    min-width: 20%;
-}
-
-.callout:is([data-callout-metadata*="portrait-right-25"]) {
-    max-width: 25%;
-    min-width: 20%;
-}
-
-.callout:is([data-callout-metadata*="portrait-right-20"]) {
-    max-width: 20%;
-    min-width: 15%
+.callout:is([data-callout-metadata*="portrait-right-10"]) {
+    max-width: 10%;
+    min-width: 5%;
 }
 
 .callout:is([data-callout-metadata*="portrait-right-15"]) {
@@ -100,7 +90,38 @@
     min-width: 10%
 }
 
-.callout:is([data-callout-metadata*="portrait-right-10"]) {
-    max-width: 10%;
-    min-width: 5%;
+.callout:is([data-callout-metadata*="portrait-right-20"]) {
+    max-width: 20%;
+    min-width: 15%
 }
+
+.callout:is([data-callout-metadata*="portrait-right-25"]) {
+    max-width: 25%;
+    min-width: 20%;
+}
+
+.callout:is([data-callout-metadata*="portrait-right-30"]) {
+    max-width: 30%;
+    min-width: 20%;
+}
+
+.callout:is([data-callout-metadata*="portrait-right-35"]) {
+    max-width: 35%;
+    min-width: 20%;
+}
+
+.callout:is([data-callout-metadata*="portrait-right-40"]) {
+    max-width: 40%;
+    min-width: 20%;
+}
+
+.callout:is([data-callout-metadata*="portrait-right-45"]) {
+    max-width: 45%;
+    min-width: 20%;
+}
+
+.callout:is([data-callout-metadata*="portrait-right-50"]) {
+    max-width: 50%;
+    min-width: 20%;
+}
+
