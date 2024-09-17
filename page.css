@@ -6,7 +6,7 @@
 }
 
 /*
- * Remove the extra block margin around p tags.
+ * no-p-block-margin: Remove the extra block margin around p tags.
  */
 .markdown-rendered.no-p-block-margin p {
     margin-block-start: 0px;
@@ -14,9 +14,24 @@
 }
 
 /*
- * Remove the extra upper margin above H tags.
+ * .no-h-extra-margin: Remove the extra upper margin above H tags.
  */
-.markdown-rendered.no-h-extra-margin h1,h2,h3,h4,h5,h6 {
+.markdown-rendered.no-h-extra-margin h1 {
+    margin-top: 0px !important;
+}
+.markdown-rendered.no-h-extra-margin h2 {
+    margin-top: 0px !important;
+}
+.markdown-rendered.no-h-extra-margin h3 {
+    margin-top: 0px !important;
+}
+.markdown-rendered.no-h-extra-margin h4 {
+    margin-top: 0px !important;
+}
+.markdown-rendered.no-h-extra-margin h5 {
+    margin-top: 0px !important;
+}
+.markdown-rendered.no-h-extra-margin h6 {
     margin-top: 0px !important;
 }
 
