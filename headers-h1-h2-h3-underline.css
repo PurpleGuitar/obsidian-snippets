@@ -91,8 +91,19 @@ span.cm-header-4 {
     line-height: 16pt;
 }
 
-h1,h2,h3 {
-    /* Reset floating elements on new headers. */
+/* ================================================== */
+/* .reset-float-h : Optionally reset float on headers */
+/* ================================================== */
+
+.reset-float-h1 h1 {
+    clear: both;
+}
+
+.reset-float-h2 h2 {
+    clear: both;
+}
+
+.reset-float-h3 h3 {
     clear: both;
 }
 
