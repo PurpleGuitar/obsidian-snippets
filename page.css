@@ -42,3 +42,8 @@
 .markdown-preview-view.is-readable-line-width.no-readable-line-width .markdown-preview-sizer {
     max-width: none;
 }
+
+/* Don't wrap -- allow text to go off the page.  Mostly useful for outlines. */
+.no-wrap {
+    white-space: nowrap;
+}
