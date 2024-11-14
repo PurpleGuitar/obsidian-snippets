@@ -47,3 +47,10 @@
 .no-wrap {
     white-space: nowrap;
 }
+
+/* Two columns */
+.two-columns {
+    column-count: 2;
+    column-gap: 1em;
+    /* column-rule: thin solid black; */
+}
