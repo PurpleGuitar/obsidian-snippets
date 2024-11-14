@@ -1,10 +1,6 @@
 /* Give callouts rounded edges. */
 .callout {
     border-radius: 10px;
-
-    /* Draw border around callout if desired. */
-    /* border-width: 2px; */ 
-
 }
 
 /* [!info|sidebar]
@@ -41,6 +37,20 @@
 	background-color: #aaaaaa00;
     margin: 0px;
     padding: 0px;
+}
+
+/* [!info|border]
+ * Show border around callout.
+ */
+.callout:is([data-callout-metadata*="border"]) {
+    border-width: 2px;
+}
+
+/* 
+ * Optionally show border around all callouts.
+ */
+.callout-borders .callout {
+    border-width: 2px;
 }
 
 
