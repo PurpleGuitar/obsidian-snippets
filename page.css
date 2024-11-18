@@ -48,9 +48,35 @@
     white-space: nowrap;
 }
 
-/* Two columns */
-.two-columns {
+/* Create responsive columns for the page */
+.responsive-columns {
+  column-gap: 1rem; /* Space between columns */
+}
+
+@media (min-width: 2048px) {
+  /* Wide screens */
+  .responsive-columns {
+    column-count: 4;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 2047px) {
+  /* Wide screens */
+  .responsive-columns {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1399px) {
+  /* Medium screens */
+  .responsive-columns {
     column-count: 2;
-    column-gap: 1em;
-    /* column-rule: thin solid black; */
+  }
+}
+
+@media (max-width: 767px) {
+  /* Small or mobile screens */
+  .responsive-columns {
+    column-count: inherit;
+  }
 }
