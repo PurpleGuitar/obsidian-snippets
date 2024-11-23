@@ -1,5 +1,5 @@
 /* Don't bold dice roller results. */
-.dice-roller span {
+.dice-roller:not(.has-embed) span {
     font-weight: normal;
 }
 
