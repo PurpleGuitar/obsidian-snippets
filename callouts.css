@@ -13,6 +13,9 @@
     float: right;
     margin: 12px;
     padding: 12px;
+    /* Move the callout "above" the text so the links are clickable */
+    position: relative;
+    z-index: 1;
 }
 
 /* [!info|noicon]
