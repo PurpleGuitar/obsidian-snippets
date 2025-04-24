@@ -10,32 +10,99 @@
     height: inherit;
 }
 
-/* Make mindmap colors readable (Light mode) */
-.theme-light .mermaid {
-    --color-red: #ff7777;
-    --color-orange: #ffbb99;
-    --color-yellow: #ffeeaa;
-    --color-green: #bbffbb;
-    --color-cyan: #bbffee;
-    --color-blue: #aaccff;
-    --color-purple: #ddbbff;
-    --color-pink: #ffcccc;
+
+/*
+ * MINDMAP COLORS (LIGHT THEME)
+ */
+.theme-light .mermaid .mindmap-nodes [class*="node-line"] {
+    stroke: #00000000 !important;
 }
+.theme-light .mermaid .mindmap-nodes text {
+    fill: var(--text-normal) !important;
+}
+.theme-light .mermaid .mindmap-nodes .section-root .node-bkg {
+    fill: white !important;
+    stroke: black;
+}
+.theme-light .mermaid .mindmap-nodes .section-root .text-inner-tspan {
+    font-weight: bold;
+}
+.theme-light .mermaid .mindmap-nodes .section-0 .node-bkg {
+    fill: #C8DFF0 !important;
+}
+.theme-light .mermaid .mindmap-edges .section-edge-0 {
+    stroke: #C8DFF0 !important;
+}
+.theme-light .mermaid .mindmap-nodes .section-1 .node-bkg {
+    fill: #F9C6B8 !important;
+}
+.theme-light .mermaid .mindmap-edges .section-edge-1 {
+    stroke: #F9C6B8 !important;
+}
+.theme-light .mermaid .mindmap-nodes .section-2 .node-bkg {
+    fill: #BFE8E0 !important;
+}
+.theme-light .mermaid .mindmap-edges .section-edge-2 {
+    stroke: #BFE8E0 !important;
+}
+.theme-light .mermaid .mindmap-nodes .section-3 .node-bkg {
+    fill: #FAEBA2 !important;
+}
+.theme-light .mermaid .mindmap-edges .section-edge-3 {
+    stroke: #FAEBA2 !important;
+}
+.theme-light .mermaid .mindmap-nodes .section-4 .node-bkg {
+    fill: #DAB9C3 !important;
+}
+.theme-light .mermaid .mindmap-edges .section-edge-4 {
+    stroke: #DAB9C3 !important;
+}
+.theme-light .mermaid .mindmap-nodes .section-5 .node-bkg {
+    fill: #DFF6F5 !important;
+}
+.theme-light .mermaid .mindmap-edges .section-edge-5 {
+    stroke: #DFF6F5 !important;
+}
+.theme-light .mermaid .mindmap-nodes .section-6 .node-bkg {
+    fill: #FAD9C3 !important;
+}
+.theme-light .mermaid .mindmap-edges .section-edge-6 {
+    stroke: #FAD9C3 !important;
+}
+
+
+
+/*
+ * GRAVEYARD
+ */
+
+
+/* Override root text color in mermaid
+ * so that it's the same color as regular node text */
+/* .mermaid .section-root text { */
+/*     fill: inherit !important; */
+/* } */
+
+/* Make mindmap colors readable (Light mode) */
+/* .theme-light .mermaid { */
+/*     --color-red: #ff7777; */
+/*     --color-orange: #ffbb99; */
+/*     --color-yellow: #ffeeaa; */
+/*     --color-green: #bbffbb; */
+/*     --color-cyan: #bbffee; */
+/*     --color-blue: #aaccff; */
+/*     --color-purple: #ddbbff; */
+/*     --color-pink: #ffcccc; */
+/* } */
 
 /* Make mindmap colors readable (Dark mode) */
-.theme-dark .mermaid {
-    --color-red: #933;
-    --color-orange: #963;
-    --color-yellow: #993;
-    --color-green: #393;
-    --color-cyan: #399;
-    --color-blue: #339;
-    --color-purple: #639;
-    --color-pink: #966;
-}
-
-/* Override root text color in mermaid 
- * so that it's the same color as regular node text */
-.mermaid .section-root text {
-    fill: inherit !important;
-}
+/* .theme-dark .mermaid { */
+/*     --color-red: #933; */
+/*     --color-orange: #963; */
+/*     --color-yellow: #993; */
+/*     --color-green: #393; */
+/*     --color-cyan: #399; */
+/*     --color-blue: #339; */
+/*     --color-purple: #639; */
+/*     --color-pink: #966; */
+/* } */
