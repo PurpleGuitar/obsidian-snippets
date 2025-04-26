@@ -36,12 +36,18 @@
 }
 
 /*
- * no-readable-line-width: Override system line width setting for this
- * page.  Useful for large Mermaid diagrams, etc.
+ * GRAVEYARD
  */
-.markdown-preview-view.is-readable-line-width.no-readable-line-width .markdown-preview-sizer {
-    max-width: none;
-}
+
+/*
+ * no-readable-line-length: Override system line length setting for this
+ * page.  Useful for large Mermaid diagrams, etc.
+ *
+ * As of 2025-04-26, this doesn't seem to work anymore.  :(
+ */
+/* .markdown-preview-view.is-readable-line-length.no-readable-line-length .markdown-preview-sizer { */
+/*     max-width: none; */
+/* } */
 
 /* Don't wrap -- allow text to go off the page.  Mostly useful for outlines. */
 .no-wrap {
