@@ -38,6 +38,10 @@
     margin: 0px;
     padding: 0px;
 }
+.markdown-preview-view.ul-flatten li {
+    margin: 0px;
+    padding: 0px;
+}
 
 /* no-ul-top-margin: Remove top margin from uls, making them closer to
  * preceding paragraphs/headings */
