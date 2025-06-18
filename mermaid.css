@@ -10,6 +10,19 @@
     height: inherit;
 }
 
+/* Make edge labels look cleaner */
+.mermaid .edgeLabel {
+    background-color: var(--background-primary) !important;
+    /* background-color: unset !important; */
+}
+.mermaid .edgeLabel p {
+    background-color: var(--background-primary) !important;
+    /* background-color: unset !important; */
+}
+.mermaid div.labelBkg {
+    background-color: var(--background-primary) !important;
+    /* background-color: unset !important; */
+}
 
 /*
  * MINDMAP COLORS (LIGHT THEME)
