@@ -14,8 +14,17 @@
   }
 }
 
-
 /* Edit mode (cm6) */
+
+.markdown-source-view .HyperMD-header {
+    --h1-size: 22pt;
+    --h2-size: 20pt;
+    --h3-size: 18pt;
+    --h4-size: 16pt;
+    --h5-size: 14pt;
+    --h6-size: 12pt;
+}
+
 
 .HyperMD-header.HyperMD-header-1 {
     padding-bottom: 0em;
@@ -23,17 +32,9 @@
     text-decoration: none;
 }
 
-span.cm-header-1 {
-    font-size: 20pt;
-}
-
 .HyperMD-header.HyperMD-header-2 {
     padding-bottom: 0em;
     border-bottom: 1px solid var(--text-normal);
-}
-
-span.cm-header-2 {
-    font-size: 18pt;
 }
 
 .HyperMD-header.HyperMD-header-3 {
@@ -41,20 +42,20 @@ span.cm-header-2 {
     border-bottom: 1px solid var(--text-faint);
 }
 
-span.cm-header-3 {
-    font-size: 16pt;
-}
-
-span.cm-header-4 {
-    font-size: 14pt;
-}
 
 /* Preview mode */
 
+.markdown-reading-view {
+    --h1-size: 22pt;
+    --h2-size: 20pt;
+    --h3-size: 18pt;
+    --h4-size: 16pt;
+    --h5-size: 13pt;
+    --h6-size: 12pt;
+}
+
 .markdown-preview-view h1 {
     border-bottom: 2px solid var(--text-normal);
-    font-size: 20pt;
-    line-height: 22pt;
     overflow: hidden;
 }
 
@@ -64,8 +65,6 @@ span.cm-header-4 {
 
 .markdown-preview-view h2 {
     border-bottom: 1px solid var(--text-normal);
-    font-size: 16pt;
-    line-height: 20pt;
     font-weight: bold;
     overflow: hidden;
 }
@@ -76,8 +75,6 @@ span.cm-header-4 {
 
 .markdown-preview-view h3 {
     border-bottom: 1px solid var(--text-faint);
-    font-size: 14pt;
-    line-height: 20pt;
     font-weight: bold;
     overflow: hidden;
 }
@@ -86,10 +83,7 @@ span.cm-header-4 {
     text-decoration: none;
 }
 
-.markdown-preview-view h4 {
-    font-size: 12pt;
-    line-height: 16pt;
-}
+
 
 /* ================================================== */
 /* .reset-float-h : Optionally reset float on headers */
