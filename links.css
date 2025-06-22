@@ -1,0 +1,8 @@
+.no-external-link-icon .markdown-rendered a.external-link {
+    background-image: none;
+    padding-right: inherit;
+}
+
+.markdown-reading-view .no-link-underline a.internal-link {
+    text-decoration: none;
+}
