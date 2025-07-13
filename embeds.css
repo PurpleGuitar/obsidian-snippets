@@ -53,6 +53,18 @@
 
 
 /* 
+ * OPTIONAL no-embed-indent: Don't indent embeds
+ */
+.markdown-preview-view.no-embed-indent .markdown-embed {
+    background-color: var(--theme-page-background);
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 
  * OPTIONAL no-embed-titles: Don't display embed titles
  */
 .markdown-preview-view.no-embed-titles .markdown-embed .embed-title {

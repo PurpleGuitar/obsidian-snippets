@@ -49,7 +49,10 @@
     margin-top: 0px;
 }
 
-/* Experimental */
+/* 
+ * Experimental 
+ */
+
 .list-float-images li img {
     float: left;
     margin-right: 6px;
@@ -58,3 +61,4 @@
 .list-float-images li {
     clear: both;
 }
+
