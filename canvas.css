@@ -2,3 +2,18 @@
 .canvas-path-label {
     font-size: var(--font-text-size);
 }
+
+.theme-light .canvas-background {
+    background: #E8E8E8;
+
+    /* To derive from accent color */
+    /* background-color: hsl( */
+    /*     var(--accent-h) */
+    /*     var(--accent-s) */
+    /*     calc(var(--accent-l) + 70%) */
+    /* ); */
+}
+
+.theme-light .canvas-background circle {
+    fill: #aaa;
+}
