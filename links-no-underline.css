@@ -1,0 +1,25 @@
+/* Regular internal links */
+.internal-link {
+    text-decoration: none;
+}
+
+/* Regular external links */
+.external-link {
+    text-decoration: none;
+}
+
+/* Internal links in frontmatter */
+.metadata-property-value .internal-link {
+    text-decoration: none;
+}
+
+/* Internal links in render mode? */
+.markdown-rendered .internal-link {
+    text-decoration: none;
+}
+
+/* Markdown links in source mode */
+.cm-s-obsidian span.cm-url {
+    text-decoration: none;
+}
+

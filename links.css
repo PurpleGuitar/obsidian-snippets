@@ -3,6 +3,10 @@
     padding-right: inherit;
 }
 
-.markdown-reading-view .no-link-underline a.internal-link {
+.markdown-reading-view .no-link-underline .internal-link {
+    text-decoration: none;
+}
+
+.metadata-property-value .no-link-underline .internal-link {
     text-decoration: none;
 }
