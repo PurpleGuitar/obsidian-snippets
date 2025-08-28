@@ -18,6 +18,11 @@
     text-decoration: none;
 }
 
+/* Internal links in live preview mode */
+.markdown-source-view.mod-cm6 .cm-hmd-internal-link .cm-underline {
+    text-decoration: none;
+}
+
 /* Markdown links in source mode */
 .cm-s-obsidian span.cm-url {
     text-decoration: none;
