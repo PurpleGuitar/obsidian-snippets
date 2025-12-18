@@ -2,6 +2,7 @@
 body {
   --background-secondary: color-mix(
     in srgb,
+    /* 96%: faint, %94%: subtle, %90: strong tint */
     var(--background-primary) 94%,
     var(--color-accent)
   );
