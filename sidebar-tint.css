@@ -1,0 +1,9 @@
+/* Subtly tint the entire secondary background with the accent color */
+body {
+  --background-secondary: color-mix(
+    in srgb,
+    var(--background-primary) 94%,
+    var(--color-accent)
+  );
+}
+
