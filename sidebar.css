@@ -8,3 +8,10 @@ body {
   );
 }
 
+/* Don't wrap Dataview list items in left sidebar */
+.workspace-split.mod-left-split .dataview-result-list-li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
