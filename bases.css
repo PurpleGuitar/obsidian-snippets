@@ -1,3 +1,7 @@
 .no-bases-header .bases-header {
     display: none;
 }
+
+.no-bases-group-property .bases-group-property {
+    display: none;
+}
