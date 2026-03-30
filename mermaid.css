@@ -10,6 +10,17 @@
     height: inherit;
 }
 
+/* Mindmap section colors */
+.theme-light {
+    --mermaid-mindmap-section-0-color: #C8DFF0;
+    --mermaid-mindmap-section-1-color: #F9C6B8;
+    --mermaid-mindmap-section-2-color: #BFE8E0;
+    --mermaid-mindmap-section-3-color: #FAEBA2;
+    --mermaid-mindmap-section-4-color: #DAB9C3;
+    --mermaid-mindmap-section-5-color: #DFF6F5;
+    --mermaid-mindmap-section-6-color: #FAD9C3;
+}
+
 
 /*
  * MINDMAP COLORS (LIGHT THEME)
@@ -33,78 +44,78 @@
 
 /* Section 0 */
 .theme-light .mermaid .mindmap-nodes .section-0 .node-bkg {
-    fill: #C8DFF0 !important;
+    fill: var(--mermaid-mindmap-section-0-color) !important;
 }
 .theme-light .mermaid .mindmap-nodes .section-0 .node-line-0 {
-    stroke: #C8DFF0 !important;
+    stroke: var(--mermaid-mindmap-section-0-color) !important;
 }
 .theme-light .mermaid .mindmap-edges .section-edge-0 {
-    stroke: #C8DFF0 !important;
+    stroke: var(--mermaid-mindmap-section-0-color) !important;
 }
 
 /* Section 1 */
 .theme-light .mermaid .mindmap-nodes .section-1 .node-bkg {
-    fill: #F9C6B8 !important;
+    fill: var(--mermaid-mindmap-section-1-color) !important;
 }
 .theme-light .mermaid .mindmap-nodes .section-1 .node-line-1 {
-    stroke: #F9C6B8 !important;
+    stroke: var(--mermaid-mindmap-section-1-color) !important;
 }
 .theme-light .mermaid .mindmap-edges .section-edge-1 {
-    stroke: #F9C6B8 !important;
+    stroke: var(--mermaid-mindmap-section-1-color) !important;
 }
 
 /* Section 2 */
 .theme-light .mermaid .mindmap-nodes .section-2 .node-bkg {
-    fill: #BFE8E0 !important;
+    fill: var(--mermaid-mindmap-section-2-color) !important;
 }
 .theme-light .mermaid .mindmap-nodes .section-2 .node-line-2 {
-    stroke: #BFE8E0 !important;
+    stroke: var(--mermaid-mindmap-section-2-color) !important;
 }
 .theme-light .mermaid .mindmap-edges .section-edge-2 {
-    stroke: #BFE8E0 !important;
+    stroke: var(--mermaid-mindmap-section-2-color) !important;
 }
 
 /* Section 3 */
 .theme-light .mermaid .mindmap-nodes .section-3 .node-bkg {
-    fill: #FAEBA2 !important;
+    fill: var(--mermaid-mindmap-section-3-color) !important;
 }
 .theme-light .mermaid .mindmap-nodes .section-3 .node-line-3 {
-    stroke: #FAEBA2 !important;
+    stroke: var(--mermaid-mindmap-section-3-color) !important;
 }
 .theme-light .mermaid .mindmap-edges .section-edge-3 {
-    stroke: #FAEBA2 !important;
+    stroke: var(--mermaid-mindmap-section-3-color) !important;
 }
 
 /* Section 4 */
 .theme-light .mermaid .mindmap-nodes .section-4 .node-bkg {
-    fill: #DAB9C3 !important;
+    fill: var(--mermaid-mindmap-section-4-color) !important;
 }
 .theme-light .mermaid .mindmap-nodes .section-4 .node-line-4 {
-    stroke: #DAB9C3 !important;
+    stroke: var(--mermaid-mindmap-section-4-color) !important;
 }
 .theme-light .mermaid .mindmap-edges .section-edge-4 {
-    stroke: #DAB9C3 !important;
+    stroke: var(--mermaid-mindmap-section-4-color) !important;
 }
 
 /* Section 5 */
 .theme-light .mermaid .mindmap-nodes .section-5 .node-bkg {
-    fill: #DFF6F5 !important;
+    fill: var(--mermaid-mindmap-section-5-color) !important;
 }
 .theme-light .mermaid .mindmap-nodes .section-5 .node-line-5 {
-    stroke: #DFF6F5 !important;
+    stroke: var(--mermaid-mindmap-section-5-color) !important;
 }
 .theme-light .mermaid .mindmap-edges .section-edge-5 {
-    stroke: #DFF6F5 !important;
+    stroke: var(--mermaid-mindmap-section-5-color) !important;
 }
 
 /* Section 6 */
 .theme-light .mermaid .mindmap-nodes .section-6 .node-bkg {
-    fill: #FAD9C3 !important;
+    fill: var(--mermaid-mindmap-section-6-color) !important;
 }
 .theme-light .mermaid .mindmap-nodes .section-6 .node-line-6 {
-    stroke: #FAD9C3 !important;
+    stroke: var(--mermaid-mindmap-section-6-color) !important;
 }
 .theme-light .mermaid .mindmap-edges .section-edge-6 {
-    stroke: #FAD9C3 !important;
+    stroke: var(--mermaid-mindmap-section-6-color) !important;
 }
 
