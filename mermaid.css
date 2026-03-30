@@ -26,14 +26,14 @@
 
 .theme-dark {
     --mermaid-mindmap-text-color: #000000;
-    --mermaid-mindmap-root-color: #666666;
-    --mermaid-mindmap-section-0-color: #AD9685;
-    --mermaid-mindmap-section-1-color: #7CAFBD;
-    --mermaid-mindmap-section-2-color: #B68D95;
-    --mermaid-mindmap-section-3-color: #7B8AD3;
-    --mermaid-mindmap-section-4-color: #9BBCB2;
-    --mermaid-mindmap-section-5-color: #967F80;
-    --mermaid-mindmap-section-6-color: #7B9CB2;
+    --mermaid-mindmap-root-color: #8F8F8F;
+    --mermaid-mindmap-section-0-color: #7A91A2;
+    --mermaid-mindmap-section-1-color: #AB786A;
+    --mermaid-mindmap-section-2-color: #719A92;
+    --mermaid-mindmap-section-3-color: #AC9D54;
+    --mermaid-mindmap-section-4-color: #8C6B75;
+    --mermaid-mindmap-section-5-color: #91A8A7;
+    --mermaid-mindmap-section-6-color: #AC8B75;
 }
 
 /*
