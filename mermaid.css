@@ -11,7 +11,10 @@
 }
 
 /* Mindmap section colors */
+
 .theme-light {
+    --mermaid-mindmap-text-color: #000000;
+    --mermaid-mindmap-root-color: #DDDDDD;
     --mermaid-mindmap-section-0-color: #C8DFF0;
     --mermaid-mindmap-section-1-color: #F9C6B8;
     --mermaid-mindmap-section-2-color: #BFE8E0;
@@ -21,101 +24,114 @@
     --mermaid-mindmap-section-6-color: #FAD9C3;
 }
 
+.theme-dark {
+    --mermaid-mindmap-text-color: #000000;
+    --mermaid-mindmap-root-color: #666666;
+    --mermaid-mindmap-section-0-color: #AD9685;
+    --mermaid-mindmap-section-1-color: #7CAFBD;
+    --mermaid-mindmap-section-2-color: #B68D95;
+    --mermaid-mindmap-section-3-color: #7B8AD3;
+    --mermaid-mindmap-section-4-color: #9BBCB2;
+    --mermaid-mindmap-section-5-color: #967F80;
+    --mermaid-mindmap-section-6-color: #7B9CB2;
+}
 
 /*
- * MINDMAP COLORS (LIGHT THEME)
+ * MINDMAP COLORS
  */
-.theme-light .mermaid .mindmap-nodes [class*="node-line"] {
-    stroke: #00000000 !important;
-}
-.theme-light .mermaid .mindmap-nodes text {
-    fill: var(--text-normal) !important;
+
+ /* All nodes */
+.mermaid .mindmap-nodes text {
+    fill: var(--mermaid-mindmap-text-color) !important;
 }
 
 /* Root node */
-.theme-light .mermaid .mindmap-nodes .section-root .node-bkg {
-    fill: white !important;
-    stroke: black;
+.mermaid .mindmap-nodes .section-root .node-bkg {
+    fill: var(--mermaid-mindmap-root-color) !important;
+    stroke: var(--mermaid-mindmap-root-color) !important;
 }
-.theme-light .mermaid .mindmap-nodes .section-root .text-inner-tspan {
+.mermaid .mindmap-nodes .section-root .node-line--1 {
+    stroke: var(--mermaid-mindmap-root-color) !important;
+}
+.mermaid .mindmap-nodes .section-root .text-inner-tspan {
     font-weight: bold;
 }
 
 
 /* Section 0 */
-.theme-light .mermaid .mindmap-nodes .section-0 .node-bkg {
+.mermaid .mindmap-nodes .section-0 .node-bkg {
     fill: var(--mermaid-mindmap-section-0-color) !important;
 }
-.theme-light .mermaid .mindmap-nodes .section-0 .node-line-0 {
+.mermaid .mindmap-nodes .section-0 .node-line-0 {
     stroke: var(--mermaid-mindmap-section-0-color) !important;
 }
-.theme-light .mermaid .mindmap-edges .section-edge-0 {
+.mermaid .mindmap-edges .section-edge-0 {
     stroke: var(--mermaid-mindmap-section-0-color) !important;
 }
 
 /* Section 1 */
-.theme-light .mermaid .mindmap-nodes .section-1 .node-bkg {
+.mermaid .mindmap-nodes .section-1 .node-bkg {
     fill: var(--mermaid-mindmap-section-1-color) !important;
 }
-.theme-light .mermaid .mindmap-nodes .section-1 .node-line-1 {
+.mermaid .mindmap-nodes .section-1 .node-line-1 {
     stroke: var(--mermaid-mindmap-section-1-color) !important;
 }
-.theme-light .mermaid .mindmap-edges .section-edge-1 {
+.mermaid .mindmap-edges .section-edge-1 {
     stroke: var(--mermaid-mindmap-section-1-color) !important;
 }
 
 /* Section 2 */
-.theme-light .mermaid .mindmap-nodes .section-2 .node-bkg {
+.mermaid .mindmap-nodes .section-2 .node-bkg {
     fill: var(--mermaid-mindmap-section-2-color) !important;
 }
-.theme-light .mermaid .mindmap-nodes .section-2 .node-line-2 {
+.mermaid .mindmap-nodes .section-2 .node-line-2 {
     stroke: var(--mermaid-mindmap-section-2-color) !important;
 }
-.theme-light .mermaid .mindmap-edges .section-edge-2 {
+.mermaid .mindmap-edges .section-edge-2 {
     stroke: var(--mermaid-mindmap-section-2-color) !important;
 }
 
 /* Section 3 */
-.theme-light .mermaid .mindmap-nodes .section-3 .node-bkg {
+.mermaid .mindmap-nodes .section-3 .node-bkg {
     fill: var(--mermaid-mindmap-section-3-color) !important;
 }
-.theme-light .mermaid .mindmap-nodes .section-3 .node-line-3 {
+.mermaid .mindmap-nodes .section-3 .node-line-3 {
     stroke: var(--mermaid-mindmap-section-3-color) !important;
 }
-.theme-light .mermaid .mindmap-edges .section-edge-3 {
+.mermaid .mindmap-edges .section-edge-3 {
     stroke: var(--mermaid-mindmap-section-3-color) !important;
 }
 
 /* Section 4 */
-.theme-light .mermaid .mindmap-nodes .section-4 .node-bkg {
+.mermaid .mindmap-nodes .section-4 .node-bkg {
     fill: var(--mermaid-mindmap-section-4-color) !important;
 }
-.theme-light .mermaid .mindmap-nodes .section-4 .node-line-4 {
+.mermaid .mindmap-nodes .section-4 .node-line-4 {
     stroke: var(--mermaid-mindmap-section-4-color) !important;
 }
-.theme-light .mermaid .mindmap-edges .section-edge-4 {
+.mermaid .mindmap-edges .section-edge-4 {
     stroke: var(--mermaid-mindmap-section-4-color) !important;
 }
 
 /* Section 5 */
-.theme-light .mermaid .mindmap-nodes .section-5 .node-bkg {
+.mermaid .mindmap-nodes .section-5 .node-bkg {
     fill: var(--mermaid-mindmap-section-5-color) !important;
 }
-.theme-light .mermaid .mindmap-nodes .section-5 .node-line-5 {
+.mermaid .mindmap-nodes .section-5 .node-line-5 {
     stroke: var(--mermaid-mindmap-section-5-color) !important;
 }
-.theme-light .mermaid .mindmap-edges .section-edge-5 {
+.mermaid .mindmap-edges .section-edge-5 {
     stroke: var(--mermaid-mindmap-section-5-color) !important;
 }
 
 /* Section 6 */
-.theme-light .mermaid .mindmap-nodes .section-6 .node-bkg {
+.mermaid .mindmap-nodes .section-6 .node-bkg {
     fill: var(--mermaid-mindmap-section-6-color) !important;
 }
-.theme-light .mermaid .mindmap-nodes .section-6 .node-line-6 {
+.mermaid .mindmap-nodes .section-6 .node-line-6 {
     stroke: var(--mermaid-mindmap-section-6-color) !important;
 }
-.theme-light .mermaid .mindmap-edges .section-edge-6 {
+.mermaid .mindmap-edges .section-edge-6 {
     stroke: var(--mermaid-mindmap-section-6-color) !important;
 }
 
