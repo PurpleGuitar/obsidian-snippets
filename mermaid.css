@@ -10,6 +10,10 @@
     height: inherit;
 }
 
+/******************/
+/* MINDMAP COLORS */
+/******************/
+
 /* Mindmap section colors */
 .theme-light {
     --mermaid-mindmap-text-color: #000000;
@@ -34,10 +38,6 @@
     --mermaid-mindmap-section-5-color: #91A8A7;
     --mermaid-mindmap-section-6-color: #AC8B75;
 }
-
-/*
- * MINDMAP COLORS
- */
 
 /* All nodes */
 .mermaid .mindmap-nodes text {
