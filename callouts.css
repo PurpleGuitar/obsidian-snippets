@@ -56,6 +56,16 @@
     border-width: 2px;
 }
 
+/* 
+ * Conversation left and right 
+ */
+.callout:is([data-callout-metadata*="cleft"]) {
+    margin-right: 10%;
+}
+
+.callout:is([data-callout-metadata*="cright"]) {
+    margin-left: 10%;
+}
 
 /* [!info|portrait-right]
  * This combines sidebar|notitle|nobackground, and tightens up the spacing
