@@ -5,3 +5,12 @@
 .no-bases-group-property .bases-group-property {
     display: none;
 }
+
+/* From: https://www.reddit.com/r/ObsidianMD/comments/1spok0c/alternating_row_colors_in_bases/ */
+.bases-tbody {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0 var(--bases-table-row-height),
+    color-mix(in oklch, var(--background-primary) 93%, var(--text-normal) 5%) 0 calc(var(--bases-table-row-height) * 2)
+  );
+}
