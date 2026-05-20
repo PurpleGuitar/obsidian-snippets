@@ -77,9 +77,9 @@
     float: right;
 	background-color: white;
     margin: 5px;
-    padding: 5px 5px 5px 5px;
-    border: thin solid black;
-    border-radius: 5px;
+    /* padding: 5px 5px 5px 5px; */
+    /* border: thin solid black; */
+    /* border-radius: 5px; */
     position: relative;
     z-index: 1;
     mix-blend-mode: normal;
