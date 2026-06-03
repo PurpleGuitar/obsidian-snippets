@@ -68,68 +68,68 @@
 }
 
 /* Section 1 */
-.mermaid .mindmap-nodes .section-1 .node-bkg {
+.mermaid .mindmap-node path.node-bkg#node-2 {
     fill: var(--mermaid-mindmap-section-1-color) !important;
 }
-.mermaid .mindmap-nodes .section-1 .node-line-1 {
+.mermaid .mindmap-node.section-1 line {
     stroke: var(--mermaid-mindmap-section-1-color) !important;
 }
-.mermaid .mindmap-edges .section-edge-1 {
+.mermaid .edgePaths path.section-edge-1 {
     stroke: var(--mermaid-mindmap-section-1-color) !important;
 }
 
 /* Section 2 */
-.mermaid .mindmap-nodes .section-2 .node-bkg {
+.mermaid .mindmap-node path.node-bkg#node-3 {
     fill: var(--mermaid-mindmap-section-2-color) !important;
 }
-.mermaid .mindmap-nodes .section-2 .node-line-2 {
+.mermaid .mindmap-node.section-2 line {
     stroke: var(--mermaid-mindmap-section-2-color) !important;
 }
-.mermaid .mindmap-edges .section-edge-2 {
+.mermaid .edgePaths path.section-edge-2 {
     stroke: var(--mermaid-mindmap-section-2-color) !important;
 }
 
 /* Section 3 */
-.mermaid .mindmap-nodes .section-3 .node-bkg {
+.mermaid .mindmap-node path.node-bkg#node-4 {
     fill: var(--mermaid-mindmap-section-3-color) !important;
 }
-.mermaid .mindmap-nodes .section-3 .node-line-3 {
+.mermaid .mindmap-node.section-3 line {
     stroke: var(--mermaid-mindmap-section-3-color) !important;
 }
-.mermaid .mindmap-edges .section-edge-3 {
+.mermaid .edgePaths path.section-edge-3 {
     stroke: var(--mermaid-mindmap-section-3-color) !important;
 }
 
 /* Section 4 */
-.mermaid .mindmap-nodes .section-4 .node-bkg {
+.mermaid .mindmap-node path.node-bkg#node-5 {
     fill: var(--mermaid-mindmap-section-4-color) !important;
 }
-.mermaid .mindmap-nodes .section-4 .node-line-4 {
+.mermaid .mindmap-node.section-4 line {
     stroke: var(--mermaid-mindmap-section-4-color) !important;
 }
-.mermaid .mindmap-edges .section-edge-4 {
+.mermaid .edgePaths path.section-edge-4 {
     stroke: var(--mermaid-mindmap-section-4-color) !important;
 }
 
 /* Section 5 */
-.mermaid .mindmap-nodes .section-5 .node-bkg {
+.mermaid .mindmap-node path.node-bkg#node-6 {
     fill: var(--mermaid-mindmap-section-5-color) !important;
 }
-.mermaid .mindmap-nodes .section-5 .node-line-5 {
+.mermaid .mindmap-node.section-5 line {
     stroke: var(--mermaid-mindmap-section-5-color) !important;
 }
-.mermaid .mindmap-edges .section-edge-5 {
+.mermaid .edgePaths path.section-edge-5 {
     stroke: var(--mermaid-mindmap-section-5-color) !important;
 }
 
 /* Section 6 */
-.mermaid .mindmap-nodes .section-6 .node-bkg {
+.mermaid .mindmap-node path.node-bkg#node-7 {
     fill: var(--mermaid-mindmap-section-6-color) !important;
 }
-.mermaid .mindmap-nodes .section-6 .node-line-6 {
+.mermaid .mindmap-node.section-6 line {
     stroke: var(--mermaid-mindmap-section-6-color) !important;
 }
-.mermaid .mindmap-edges .section-edge-6 {
+.mermaid .edgePaths path.section-edge-6 {
     stroke: var(--mermaid-mindmap-section-6-color) !important;
 }
 
