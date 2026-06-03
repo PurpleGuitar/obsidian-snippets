@@ -40,16 +40,16 @@
 }
 
 /* All nodes */
-.mermaid .mindmap-nodes text {
-    fill: var(--mermaid-mindmap-text-color) !important;
+.mermaid .mindmap-node span.nodeLabel {
+    color: var(--mermaid-mindmap-text-color) !important;
 }
 
 /* Root node */
-.mermaid .mindmap-nodes .section-root .node-bkg {
+.mermaid .mindmap-node path.node-bkg#node-0 {
     fill: var(--mermaid-mindmap-root-color) !important;
     stroke: var(--mermaid-mindmap-root-color) !important;
 }
-.mermaid .mindmap-nodes .section-root .node-line--1 {
+.mermaid .mindmap-node.section-root line {
     stroke: var(--mermaid-mindmap-root-color) !important;
 }
 .mermaid .mindmap-nodes .section-root .text-inner-tspan {
@@ -57,13 +57,13 @@
 }
 
 /* Section 0 */
-.mermaid .mindmap-nodes .section-0 .node-bkg {
+.mermaid .mindmap-node path.node-bkg#node-1 {
     fill: var(--mermaid-mindmap-section-0-color) !important;
 }
-.mermaid .mindmap-nodes .section-0 .node-line-0 {
+.mermaid .mindmap-node.section-0 line {
     stroke: var(--mermaid-mindmap-section-0-color) !important;
 }
-.mermaid .mindmap-edges .section-edge-0 {
+.mermaid .edgePaths path.section-edge-0 {
     stroke: var(--mermaid-mindmap-section-0-color) !important;
 }
 
