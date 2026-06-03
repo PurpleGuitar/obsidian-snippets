@@ -57,7 +57,7 @@
 }
 
 /* Section 0 */
-.mermaid .mindmap-node path.node-bkg#node-1 {
+.mermaid .mindmap-node.section-0 path.node-bkg {
     fill: var(--mermaid-mindmap-section-0-color) !important;
 }
 .mermaid .mindmap-node.section-0 line {
@@ -68,7 +68,7 @@
 }
 
 /* Section 1 */
-.mermaid .mindmap-node path.node-bkg#node-2 {
+.mermaid .mindmap-node.section-1 path.node-bkg {
     fill: var(--mermaid-mindmap-section-1-color) !important;
 }
 .mermaid .mindmap-node.section-1 line {
@@ -79,7 +79,7 @@
 }
 
 /* Section 2 */
-.mermaid .mindmap-node path.node-bkg#node-3 {
+.mermaid .mindmap-node.section-2 path.node-bkg {
     fill: var(--mermaid-mindmap-section-2-color) !important;
 }
 .mermaid .mindmap-node.section-2 line {
@@ -90,7 +90,7 @@
 }
 
 /* Section 3 */
-.mermaid .mindmap-node path.node-bkg#node-4 {
+.mermaid .mindmap-node.section-3 path.node-bkg {
     fill: var(--mermaid-mindmap-section-3-color) !important;
 }
 .mermaid .mindmap-node.section-3 line {
@@ -101,7 +101,7 @@
 }
 
 /* Section 4 */
-.mermaid .mindmap-node path.node-bkg#node-5 {
+.mermaid .mindmap-node.section-4 path.node-bkg {
     fill: var(--mermaid-mindmap-section-4-color) !important;
 }
 .mermaid .mindmap-node.section-4 line {
@@ -112,7 +112,7 @@
 }
 
 /* Section 5 */
-.mermaid .mindmap-node path.node-bkg#node-6 {
+.mermaid .mindmap-node.section-5 path.node-bkg {
     fill: var(--mermaid-mindmap-section-5-color) !important;
 }
 .mermaid .mindmap-node.section-5 line {
@@ -123,7 +123,7 @@
 }
 
 /* Section 6 */
-.mermaid .mindmap-node path.node-bkg#node-7 {
+.mermaid .mindmap-node path.node-bkg.node-6 {
     fill: var(--mermaid-mindmap-section-6-color) !important;
 }
 .mermaid .mindmap-node.section-6 line {
