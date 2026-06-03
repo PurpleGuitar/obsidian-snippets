@@ -78,7 +78,7 @@
     fill: var(--mermaid-mindmap-section-1-color) !important;
 }
 .mermaid .mindmap-node.section-1 rect.label-container {
-    fill: var(--mermaid-mindmap-section-0-color) !important;
+    fill: var(--mermaid-mindmap-section-1-color) !important;
 }
 .mermaid .mindmap-node.section-1 line {
     stroke: var(--mermaid-mindmap-section-1-color) !important;
@@ -92,7 +92,7 @@
     fill: var(--mermaid-mindmap-section-2-color) !important;
 }
 .mermaid .mindmap-node.section-2 rect.label-container {
-    fill: var(--mermaid-mindmap-section-0-color) !important;
+    fill: var(--mermaid-mindmap-section-2-color) !important;
 }
 .mermaid .mindmap-node.section-2 line {
     stroke: var(--mermaid-mindmap-section-2-color) !important;
@@ -120,7 +120,7 @@
     fill: var(--mermaid-mindmap-section-4-color) !important;
 }
 .mermaid .mindmap-node.section-4 rect.label-container {
-    fill: var(--mermaid-mindmap-section-0-color) !important;
+    fill: var(--mermaid-mindmap-section-4-color) !important;
 }
 .mermaid .mindmap-node.section-4 line {
     stroke: var(--mermaid-mindmap-section-4-color) !important;
@@ -134,7 +134,7 @@
     fill: var(--mermaid-mindmap-section-5-color) !important;
 }
 .mermaid .mindmap-node.section-5 rect.label-container {
-    fill: var(--mermaid-mindmap-section-0-color) !important;
+    fill: var(--mermaid-mindmap-section-5-color) !important;
 }
 .mermaid .mindmap-node.section-5 line {
     stroke: var(--mermaid-mindmap-section-5-color) !important;
@@ -148,7 +148,7 @@
     fill: var(--mermaid-mindmap-section-6-color) !important;
 }
 .mermaid .mindmap-node.section-6 rect.label-container {
-    fill: var(--mermaid-mindmap-section-0-color) !important;
+    fill: var(--mermaid-mindmap-section-6-color) !important;
 }
 .mermaid .mindmap-node.section-6 line {
     stroke: var(--mermaid-mindmap-section-6-color) !important;
