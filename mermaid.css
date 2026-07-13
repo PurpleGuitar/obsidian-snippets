@@ -105,6 +105,15 @@
 .mermaid .mindmap-node.section-3 path.node-bkg {
     fill: var(--mermaid-mindmap-section-3-color) !important;
 }
+.mermaid .mindmap-node.section-3 path.label-container {
+    fill: var(--mermaid-mindmap-section-3-color) !important;
+}
+.mermaid .mindmap-node.section-3 circle.label-container {
+    fill: var(--mermaid-mindmap-section-3-color) !important;
+}
+.mermaid .mindmap-node.section-3 polygon.label-container {
+    fill: var(--mermaid-mindmap-section-3-color) !important;
+}
 .mermaid .mindmap-node.section-3 rect.label-container {
     fill: var(--mermaid-mindmap-section-3-color) !important;
 }
@@ -144,7 +153,7 @@
 }
 
 /* Section 6 */
-.mermaid .mindmap-node path.node-bkg.node-6 {
+.mermaid .mindmap-node.section-6 path.node-bkg {
     fill: var(--mermaid-mindmap-section-6-color) !important;
 }
 .mermaid .mindmap-node.section-6 rect.label-container {
