@@ -76,8 +76,10 @@
     /* min-width: 40%; */
     float: right;
 	background-color: white;
+    /* margin: 5px; */
     margin: 5px;
     /* padding: 5px 5px 5px 5px; */
+    padding: 0px;
     /* border: thin solid black; */
     /* border-radius: 5px; */
     position: relative;
