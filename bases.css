@@ -2,6 +2,10 @@
     display: none;
 }
 
+.no-bases-thead .bases-thead {
+    display: none;
+}
+
 .no-bases-group-property .bases-group-property {
     display: none;
 }
