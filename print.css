@@ -1,9 +1,11 @@
 @media print {
 
-    .page-break-on-h1 h1 {
+    /* print-h1-page-break: Start each h1 on a new page */
+    .print-h1-page-break h1 {
         break-before: page;
     }
 
+    /* print-two-columns, print-three-columns, print-four-columns */
     .print-two-columns {
         column-count: 2;
         column-gap: 2em;
@@ -12,10 +14,14 @@
 
     .print-three-columns {
         column-count: 3;
+        column-gap: 1em;
+        column-rule: thin solid black;
     }
 
     .print-four-columns {
         column-count: 4;
+        column-gap: 1en;
+        column-rule: thin solid black;
     }
 
 }

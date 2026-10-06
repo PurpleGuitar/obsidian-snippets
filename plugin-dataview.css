@@ -27,7 +27,7 @@ span.dataview.inline-field-value {
 }
 
 
-/* Optionally hide inline fields. */
+/* no-dataview-inline-fields: Hide inline fields. */
 .no-dataview-inline-fields span.dataview.inline-field {
     display: none;
 }

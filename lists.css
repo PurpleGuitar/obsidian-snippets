@@ -1,5 +1,5 @@
 /*
- * Optionally stripe ul lists
+ * ul-striped, ul-striped-dark: Stripe ul lists
  */
 
 .ul-striped ul li:nth-child(odd) {
@@ -19,7 +19,7 @@
 .markdown-preview-view.no-ul-bullets ul {
     list-style-type: none;
 }
-.markdown-preview-view.no-ul-bullets .markdown-rendered.show-indentation-guide li > ul::before {
+.markdown-rendered.show-indentation-guide.no-ul-bullets li > ul::before {
     /* Hide vertical lines too */
     display: none;
 }
@@ -43,21 +43,21 @@
     padding: 0px;
 }
 
-/* no-ul-top-margin: Remove top margin from uls, making them closer to
+/* no-ul-margin-top: Remove top margin from uls, making them closer to
  * preceding paragraphs/headings */
-.markdown-preview-view.no-ul-top-margin ul {
+.markdown-preview-view.no-ul-margin-top ul {
     margin-top: 0px;
 }
 
 /* 
- * Experimental 
+ * Experimental
  */
 
-.list-float-images li img {
+.ul-float-images li img {
     float: left;
     margin-right: 6px;
 }
 
-.list-float-images li {
+.ul-float-images li {
     clear: both;
 }

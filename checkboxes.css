@@ -1,3 +1,4 @@
+/* no-checkbox-strikeout: Don't strike out completed tasks */
 .no-checkbox-strikeout {
   --checklist-done-decoration: none;
 }

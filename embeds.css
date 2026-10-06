@@ -13,7 +13,7 @@
 }
 .markdown-preview-view.no-embed-decorations .markdown-embed-link {
     /* Make embed link invisible. */
-    color: #00000000;
+    color: transparent;
 }
 .markdown-preview-view.no-embed-decorations .markdown-embed-content > .markdown-preview-view {
     padding: 0;
@@ -44,23 +44,11 @@
 
 .markdown-source-view.no-embed-decorations .markdown-embed-link {
     /* Make embed link invisible. */
-    color: #00000000;
+    color: transparent;
 }
 
 .markdown-source-view.no-embed-decorations .markdown-embed .embed-title {
     display: none;
-}
-
-
-/* 
- * OPTIONAL no-embed-indent: Don't indent embeds
- */
-.markdown-preview-view.no-embed-indent .markdown-embed {
-    background-color: var(--theme-page-background);
-    border: none;
-    box-shadow: none;
-    padding: 0;
-    margin: 0;
 }
 
 
@@ -74,16 +62,7 @@
 /* 
  * OPTIONAL no-embed-headings: Hide headings from embedded content
  */
-.markdown-preview-view.no-embed-headings .markdown-embed h1 {
-    display: none;
-}
-.markdown-preview-view.no-embed-headings .markdown-embed h2 {
-    display: none;
-}
-.markdown-preview-view.no-embed-headings .markdown-embed h3 {
-    display: none;
-}
-.markdown-preview-view.no-embed-headings .markdown-embed h4 {
+.markdown-preview-view.no-embed-headings .markdown-embed :is(h1, h2, h3, h4) {
     display: none;
 }
 

@@ -1,3 +1,4 @@
+/* no-code-copy-button: Hide the copy button on code blocks */
 .no-code-copy-button button.copy-code-button {
     display: none;
 }

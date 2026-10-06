@@ -1,11 +1,9 @@
 @media print {
   body{
     column-count: 2;
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
   }
   /* Don't allow callouts to be broken over columns or pages. */
   div.callout {
-      page-break-inside: avoid;
+      break-inside: avoid;
   }
 }

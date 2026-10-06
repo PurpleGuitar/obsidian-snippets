@@ -4,8 +4,8 @@
     height: auto;
 }
 
-/* Override resizing if desired */
-.no-resize-mermaid .mermaid svg {
+/* no-mermaid-resize: Show diagrams at their natural size */
+.no-mermaid-resize .mermaid svg {
     max-width: inherit;
     height: inherit;
 }

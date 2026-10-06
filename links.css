@@ -1,12 +1,14 @@
-.no-external-link-icon .markdown-rendered a.external-link {
+/* no-external-link-icon: Hide the arrow icon after external links */
+.no-external-link-icon .external-link {
     background-image: none;
     padding-right: inherit;
 }
 
+/* no-link-underline: Don't underline internal links */
 .markdown-reading-view .no-link-underline .internal-link {
     text-decoration: none;
 }
 
-.metadata-property-value .no-link-underline .internal-link {
+.no-link-underline .metadata-property-value .internal-link {
     text-decoration: none;
 }

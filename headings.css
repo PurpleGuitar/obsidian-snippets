@@ -1,3 +1,7 @@
-.markdown-rendered.no-heading-margin-top div:has( > :is(p,pre,table,ul,ol)) + div > :is(h1,h2,h3,h4,h5,h6) {
+/*
+ * no-h-spacing: Remove the extra space Obsidian adds above headings that
+ * follow a paragraph, code block, table, or list.
+ */
+.markdown-rendered.no-h-spacing div:has( > :is(p,pre,table,ul,ol)) + div > :is(h1,h2,h3,h4,h5,h6) {
     margin-top: 0px;
 }

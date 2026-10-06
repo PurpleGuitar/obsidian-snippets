@@ -14,47 +14,24 @@
 }
 
 /*
- * .no-h-extra-margin: Remove the extra upper margin above H tags.
+ * no-h-margin-top: Remove the upper margin above all headings.
+ * (See also no-h-spacing in headings.css.)
  */
-.markdown-rendered.no-h-extra-margin h1 {
-    margin-top: 0px !important;
-}
-.markdown-rendered.no-h-extra-margin h2 {
-    margin-top: 0px !important;
-}
-.markdown-rendered.no-h-extra-margin h3 {
-    margin-top: 0px !important;
-}
-.markdown-rendered.no-h-extra-margin h4 {
-    margin-top: 0px !important;
-}
-.markdown-rendered.no-h-extra-margin h5 {
-    margin-top: 0px !important;
-}
-.markdown-rendered.no-h-extra-margin h6 {
+.markdown-rendered.no-h-margin-top :is(h1, h2, h3, h4, h5, h6) {
     margin-top: 0px !important;
 }
 
 /*
- * GRAVEYARD
+ * no-text-wrap: Don't wrap -- allow text to go off the page.  Mostly useful
+ * for outlines.
  */
-
-/*
- * no-readable-line-length: Override system line length setting for this
- * page.  Useful for large Mermaid diagrams, etc.
- *
- * As of 2025-04-26, this doesn't seem to work anymore.  :(
- */
-/* .markdown-preview-view.is-readable-line-length.no-readable-line-length .markdown-preview-sizer { */
-/*     max-width: none; */
-/* } */
-
-/* Don't wrap -- allow text to go off the page.  Mostly useful for outlines. */
 .no-text-wrap {
     white-space: nowrap;
 }
 
-/* Create responsive columns for the page */
+/*
+ * responsive-columns: Flow the page into columns based on screen width.
+ */
 .responsive-columns {
   column-gap: 1rem; /* Space between columns */
 }
@@ -83,6 +60,20 @@
 @media (max-width: 767px) {
   /* Small or mobile screens */
   .responsive-columns {
-    column-count: inherit;
+    column-count: auto;
   }
 }
+
+/*
+ * GRAVEYARD
+ */
+
+/*
+ * no-readable-line-length: Override system line length setting for this
+ * page.  Useful for large Mermaid diagrams, etc.
+ *
+ * As of 2025-04-26, this doesn't seem to work anymore.  :(
+ */
+/* .markdown-preview-view.is-readable-line-length.no-readable-line-length .markdown-preview-sizer { */
+/*     max-width: none; */
+/* } */

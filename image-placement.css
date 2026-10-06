@@ -1,70 +1,54 @@
 /* ==================================================================== */
 /* IMAGE PLACEMENT BY SPAN                                              */
 /* <span class="portrait-right">![[my_img.png]]</span>                  */
+/*                                                                      */
+/* portrait-right (30%), portrait-right-20, -25, -30, -35, -50,         */
+/* portrait-right-200px, icon-right, icon-left                          */
 /* ==================================================================== */
 
-.markdown-rendered .portrait-right img {
-    max-width: 30%;
+.markdown-rendered :is(
+    .portrait-right,
+    .portrait-right-20,
+    .portrait-right-25,
+    .portrait-right-30,
+    .portrait-right-35,
+    .portrait-right-50,
+    .portrait-right-200px
+) img {
     float: right;
     background: white;
     padding: 5px;
     margin-left: 5px;
     border: 1px solid black;
+}
+
+.markdown-rendered .portrait-right img {
+    max-width: 30%;
 }
 
 .markdown-rendered .portrait-right-20 img {
     max-width: 20%;
-    float: right;
-    background: white;
-    padding: 5px;
-    margin-left: 5px;
-    border: 1px solid black;
 }
 
 .markdown-rendered .portrait-right-25 img {
     max-width: 25%;
-    float: right;
-    background: white;
-    padding: 5px;
-    margin-left: 5px;
-    border: 1px solid black;
 }
 
 .markdown-rendered .portrait-right-30 img {
     max-width: 30%;
-    float: right;
-    background: white;
-    padding: 5px;
-    margin-left: 5px;
-    border: 1px solid black;
 }
 
 .markdown-rendered .portrait-right-35 img {
     max-width: 35%;
-    float: right;
-    background: white;
-    padding: 5px;
-    margin-left: 5px;
-    border: 1px solid black;
 }
 
 .markdown-rendered .portrait-right-50 img {
     max-width: 50%;
-    float: right;
-    background: white;
-    padding: 5px;
-    margin-left: 5px;
-    border: 1px solid black;
 }
 
 .markdown-rendered .portrait-right-200px img {
     max-width: 200px;
     max-height: 200px;
-    float: right;
-    background: white;
-    padding: 5px;
-    margin-left: 5px;
-    border: 1px solid black;
 }
 
 .markdown-rendered .icon-right img {
@@ -84,4 +68,3 @@
     margin-right: 5px;
     border: 1px solid black;
 }
-

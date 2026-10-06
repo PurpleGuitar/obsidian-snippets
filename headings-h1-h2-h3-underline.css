@@ -86,19 +86,20 @@
 
 
 
-/* ================================================== */
-/* .reset-float-h : Optionally reset float on headers */
-/* ================================================== */
+/* ============================================================ */
+/* h1-clear-float, h2-clear-float, h3-clear-float:              */
+/* Start headings below any floated content (sidebars, images)  */
+/* ============================================================ */
 
-.reset-float-h1 h1 {
+.h1-clear-float h1 {
     clear: both;
 }
 
-.reset-float-h2 h2 {
+.h2-clear-float h2 {
     clear: both;
 }
 
-.reset-float-h3 h3 {
+.h3-clear-float h3 {
     clear: both;
 }
 
@@ -107,27 +108,8 @@
 /* no-h-underline: No header underlines */
 /* ==================================== */
 
-.markdown-preview-view.no-h-underline h1 {
-    border-bottom: none;
-}
-
-.markdown-preview-view.no-h-underline h2 {
-    border-bottom: none;
-}
-
-.markdown-preview-view.no-h-underline h3 {
-    border-bottom: none;
-}
-
-.no-h-underline .HyperMD-header.HyperMD-header-1 {
-    border-bottom: none;
-}
-
-.no-h-underline .HyperMD-header.HyperMD-header-2 {
-    border-bottom: none;
-}
-
-.no-h-underline .HyperMD-header.HyperMD-header-3 {
+.markdown-preview-view.no-h-underline :is(h1, h2, h3),
+.no-h-underline .HyperMD-header:is(.HyperMD-header-1, .HyperMD-header-2, .HyperMD-header-3) {
     border-bottom: none;
 }
 
@@ -135,10 +117,7 @@
 /* no-h1-underline: No h1 underlines */
 /* ================================= */
 
-.markdown-preview-view.no-h1-underline h1 {
-    border-bottom: none;
-}
-
+.markdown-preview-view.no-h1-underline h1,
 .no-h1-underline .HyperMD-header.HyperMD-header-1 {
     border-bottom: none;
 }
@@ -147,10 +126,7 @@
 /* no-h2-underline: No h2 underlines */
 /* ================================= */
 
-.markdown-preview-view.no-h2-underline h2 {
-    border-bottom: none;
-}
-
+.markdown-preview-view.no-h2-underline h2,
 .no-h2-underline .HyperMD-header.HyperMD-header-2 {
     border-bottom: none;
 }
@@ -159,10 +135,7 @@
 /* no-h3-underline: No h3 underlines */
 /* ================================= */
 
-.markdown-preview-view.no-h3-underline h3 {
-    border-bottom: none;
-}
-
+.markdown-preview-view.no-h3-underline h3,
 .no-h3-underline .HyperMD-header.HyperMD-header-3 {
     border-bottom: none;
 }

@@ -1,11 +1,14 @@
+/* no-bases-header: Hide the Bases toolbar */
 .no-bases-header .bases-header {
     display: none;
 }
 
+/* no-bases-thead: Hide the table column headings */
 .no-bases-thead .bases-thead {
     display: none;
 }
 
+/* no-bases-group-property: Hide the group-by property name */
 .no-bases-group-property .bases-group-property {
     display: none;
 }
@@ -15,6 +18,6 @@
   background-image: repeating-linear-gradient(
     to bottom,
     transparent 0 var(--bases-table-row-height),
-    color-mix(in oklch, var(--background-primary) 93%, var(--text-normal) 5%) 0 calc(var(--bases-table-row-height) * 2)
+    color-mix(in oklch, var(--background-primary) 95%, var(--text-normal)) 0 calc(var(--bases-table-row-height) * 2)
   );
 }
