@@ -15,15 +15,15 @@
     background-color: var(--background-modifier-border);
 }
 
-/* ul-hide-bullets: Don't show list bullets */
-.markdown-preview-view.ul-hide-bullets ul {
+/* no-ul-bullets: Don't show list bullets */
+.markdown-preview-view.no-ul-bullets ul {
     list-style-type: none;
 }
-.markdown-preview-view.ul-hide-bullets .markdown-rendered.show-indentation-guide li > ul::before {
+.markdown-preview-view.no-ul-bullets .markdown-rendered.show-indentation-guide li > ul::before {
     /* Hide vertical lines too */
     display: none;
 }
-.markdown-preview-view.ul-hide-bullets span.list-bullet {
+.markdown-preview-view.no-ul-bullets span.list-bullet {
     display: none;
 }
 
@@ -61,4 +61,3 @@
 .list-float-images li {
     clear: both;
 }
-

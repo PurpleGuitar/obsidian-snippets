@@ -28,7 +28,7 @@ span.dataview.inline-field-value {
 
 
 /* Optionally hide inline fields. */
-.hide-inline-fields span.dataview.inline-field {
+.no-dataview-inline-fields span.dataview.inline-field {
     display: none;
 }
 
@@ -36,4 +36,3 @@ span.dataview.inline-field-value {
 .block-language-dataview {
     overflow-y: inherit;
 }
-
