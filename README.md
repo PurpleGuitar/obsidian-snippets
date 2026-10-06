@@ -56,7 +56,7 @@ Add after the callout type, e.g. `> [!info|sidebar|no-title]`.
 
 | Option | Effect |
 | --- | --- |
-| `sidebar` | Float the callout to the right at 30% width |
+| `sidebar` | Float the callout to the right at 40% width |
 | `no-icon` | Hide the icon |
 | `no-title` | Hide the title (and icon) |
 | `no-background` | Remove background, margin, and padding |
