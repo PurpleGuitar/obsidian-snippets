@@ -79,10 +79,6 @@ body {
     fill: var(--mermaid-mindmap-color) !important;
 }
 
-.mermaid .mindmap-node:is(
-    .section-root, .section-0, .section-1, .section-2,
-    .section-3, .section-4, .section-5, .section-6
-) line,
 .mermaid .mindmap-node.section-root path.node-bkg,
 .mermaid .edgePaths path:is(
     .section-edge-0, .section-edge-1, .section-edge-2,
@@ -91,6 +87,14 @@ body {
     stroke: var(--mermaid-mindmap-color) !important;
 }
 
+/* Don't show underlines. */
+.mermaid .mindmap-node:is(
+    .section-root, .section-0, .section-1, .section-2,
+    .section-3, .section-4, .section-5, .section-6
+) line
+{
+    display: none;
+}
 /* All nodes */
 .mermaid .mindmap-node span.nodeLabel {
     color: var(--mermaid-mindmap-text-color) !important;
