@@ -1,3 +1,23 @@
+/* Make data font a little bigger. */
+body {
+    --bases-table-font-size: var(--font-small);
+    --bases-group-heading-value-size: var(--font-small);
+}
+
+/* Alternating row colors in tables */
+/* From: https://www.reddit.com/r/ObsidianMD/comments/1spok0c/alternating_row_colors_in_bases/ */
+.bases-tbody {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0 var(--bases-table-row-height),
+    color-mix(in oklch, var(--background-primary) 95%, var(--text-normal)) 0 calc(var(--bases-table-row-height) * 2)
+  );
+}
+
+/*
+ * OPTIONS
+ */
+
 /* no-bases-header: Hide the Bases toolbar */
 .no-bases-header .bases-header {
     display: none;
@@ -13,11 +33,3 @@
     display: none;
 }
 
-/* From: https://www.reddit.com/r/ObsidianMD/comments/1spok0c/alternating_row_colors_in_bases/ */
-.bases-tbody {
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0 var(--bases-table-row-height),
-    color-mix(in oklch, var(--background-primary) 95%, var(--text-normal)) 0 calc(var(--bases-table-row-height) * 2)
-  );
-}
